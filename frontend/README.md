@@ -2,7 +2,7 @@
 - Ngày triển khai: 10/10/2025
 - ID FreeFire tác giả: 2349335556 - Tuấπ's_@πh
 - Môi trường hỗ trợ: I don't know! Không cần phương tiện hiện đại, chỉ cần cài Node JS, npm install, create project với vite sau đó chọn phờ rêm guộc
-- FreamWork: TailWind Css (1 hạt cát), React (1 muỗng cafe)
+- FrameWork: TailWind Css (1 hạt cát), React (1 muỗng cafe)
 
 # Bonus 
 - Web chạy chính thức ở Vercle: https://new-front-web.vercel.app/ (Chat GPT bày à cho)
