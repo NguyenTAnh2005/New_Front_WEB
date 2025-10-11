@@ -1,6 +1,6 @@
 export function SubscribleForm() {
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-2 py-5 lg:py-12 bg-blue-700 text-white px-10 lg:px-0 rounded-lg mt-1">
+        <div className="grid grid-cols-1 lg:grid-cols-2 py-5 lg:py-12 bg-blue-600 text-white px-10 lg:px-0 rounded-lg mt-1">
             <div className="flex flex-col items-center lg:my-auto">
                 <span className="lg:text-[36px] text-[28px] text-center font-sans font-bold">Subscribe to Our Newsletter</span>
                 <span className="lg:text-[18px] text-[16px] text-center">Get the latest deals and tech news delivered to your inbox</span>
