@@ -40,7 +40,7 @@ function Present() {
 }
 function Hotline_item({ link, cls_icon }) {
     return (
-        <li className="bg-gray-700 px-2.5 py-1.5 rounded-full text-white transition-all ease-linear duration-300 hover:bg-white hover:text-black hover:-translate-y-1">
+        <li className="bg-gray-700 px-2.5 py-1.5 rounded-full text-white transition-all ease-linear duration-300 hover:bg-white hover:text-sky-600 hover:-translate-y-1">
             <a href={`${link}`}>
                 <i className={`${cls_icon}`}></i>
             </a>
