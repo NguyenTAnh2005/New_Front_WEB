@@ -33,7 +33,7 @@ export function Header() {
 }
 function NavBrand() {
     return (
-        <a className="flex items-center text-sky-600 text-2xl md:text-3xl lg:text-4xl py-4" href="/Home">
+        <a className="flex items-center text-sky-700 text-2xl md:text-3xl lg:text-4xl py-4" href="/Home">
             <i className="ri-smartphone-line font-thin me-1"></i>
             <span className="me-2 font-bold"> Phone </span>
             <span className="font-thin"> React</span>
@@ -70,8 +70,8 @@ function NavActions({ actions, cls_name = "" }) {
 }
 function Action({ action }) {
     return (
-        <button id={action.id} className="flex flex-col xl:flex-row xl:justify-center items-center text-sky-600 group 
-        hover:text-white rounded-lg hover:pr-6 hover:bg-sky-600 hover:shadow-lg transition-all duration-400 ease-linear px-4 py-2">
+        <button id={action.id} className="flex flex-col xl:flex-row xl:justify-center items-center text-blue-600 group 
+        hover:text-white rounded-lg hover:pr-6 hover:bg-blue-600-600 hover:shadow-lg transition-all duration-400 ease-linear px-4 py-2">
             <i className={action.clsicon + " text-2xl group-hover:ms-0 align-middle"}></i>
             <span className="hidden text-xl group-hover:block transition-all duration-400 ease-linear">{action.content}</span>
         </button>
