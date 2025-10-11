@@ -33,11 +33,11 @@ export function Header() {
 }
 function NavBrand() {
     return (
-        <div className="flex items-center text-orange-600 text-2xl md:text-3xl lg:text-4xl py-4">
+        <a className="flex items-center text-orange-600 text-2xl md:text-3xl lg:text-4xl py-4" href="/Home">
             <i className="ri-smartphone-line font-thin me-1"></i>
             <span className="me-2 font-bold"> Phone </span>
             <span className="font-thin"> React</span>
-        </div>
+        </a>
     )
 }
 function NavLink({ navLinks, cls_name = "" }) {
@@ -47,14 +47,16 @@ function NavLink({ navLinks, cls_name = "" }) {
             {nav_links}
         </ul>
     )
-    // hidden gap-5 lg:flex lg:flex-row
 }
 function NavItem({ nav_item }) {
     return (
-        <li className="hover:text-orange-500 hover:-translate-y-0.5 transition-all ease-linear duration-300 text-lg xl:text-xl text-black">
+        <li className="text-lg xl:text-xl text-black relative group">
             <a href={"/" + nav_item.content}>
                 {nav_item.content}
             </a >
+            <span className=" hidden lg:block absolute  h-0.5 bg-black translate-y-3 w-0 group-hover:w-full group-hover:-translate-x-[0%] z-10 bottom-0 left-0 translate-x-[50%] transition-all ease-linear duration-400">
+
+            </span>
         </li >
     )
 }
