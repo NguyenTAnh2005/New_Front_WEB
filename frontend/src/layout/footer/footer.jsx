@@ -24,7 +24,7 @@ function Present() {
     return (
         <div className=" flex flex-col items-center lg:items-start w-[90%] mx-auto outline-1 lg:w-1/3 lg:m-0 lg:ml-3 mt-5 text-center lg:text-start">
             <span className="text-[40px] font-extrabold">
-                <i className="ri-smartphone-line font-thin mr-2"></i>
+                <i className="bi bi-phone mr-2"></i>
                 Phone React
             </span>
             <p className="text-[20px] text-gray-400">
@@ -40,7 +40,7 @@ function Present() {
 }
 function Hotline_item({ link, cls_icon }) {
     return (
-        <li className="bg-gray-700 px-2.5 py-1.5 rounded-full text-white transition-all ease-linear duration-300 hover:bg-white hover:blue-sky-600 hover:-translate-y-1">
+        <li className="bg-gray-700 px-2.5 py-1.5 rounded-full text-white transition-all ease-linear duration-300 hover:bg-white hover:text-mainCL hover:-translate-y-1">
             <a href={`${link}`}>
                 <i className={`${cls_icon}`}></i>
             </a>
