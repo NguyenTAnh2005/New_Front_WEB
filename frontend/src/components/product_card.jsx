@@ -8,11 +8,11 @@ export function ProductCard({ product }) {
     return (
         <div
             className="flex flex-col w-full max-w-[350px] border rounded-2xl border-gray-200 p-2 pb-4 group mx-auto overflow-hidden
-         hover:shadow-lg hover:shadow-mainCL hover:border-mainCL hover:-translate-y-1 aspect-square object-cover
+         hover:shadow-lg hover:shadow-mainCL hover:border-mainCL hover:-translate-y-1 
          transition-all duration-300 ease-linear bg-white relative">
             <div className="rounded-lg overflow-hidden">
                 <img src={egimg1}
-                    className="w-full rounded-lg transition-transform duration-300 ease-in-out group-hover:scale-110"
+                    className="w-full rounded-lg transition-transform duration-300 ease-in-out group-hover:scale-110 aspect-square object-cover"
                     alt="product" />
             </div>
             <span
