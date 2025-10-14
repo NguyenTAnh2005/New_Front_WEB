@@ -6,7 +6,7 @@ import { list_hotline } from "./data";
 
 export function Footer() {
     return (
-        <div className="flex flex-col bg-gray-900 text-white px-5 lg:px-0 mt-20">
+        <div className="flex flex-col bg-gray-900 text-white mt-20">
             <SubscribleForm />
             <div className="flex flex-col lg:flex-row lg:gap-8">
                 <Present />
@@ -22,7 +22,7 @@ export function Footer() {
 }
 function Present() {
     return (
-        <div className=" flex flex-col items-center lg:items-start w-[90%] mx-auto outline-1 lg:w-1/3 lg:m-0 lg:ml-3 mt-5 text-center lg:text-start">
+        <div className=" flex flex-col items-center px-5 lg:px-0 lg:items-start w-[90%] mx-auto outline-1 lg:w-1/3 lg:m-0 lg:ml-3 mt-5 text-center lg:text-start">
             <span className="text-[40px] font-extrabold">
                 <i className="bi bi-phone mr-2"></i>
                 Phone React
@@ -56,7 +56,7 @@ function List_info({ list, title }) {
     ));
 
     return (
-        <div className="mt-5">
+        <div className="mt-5 px-5 lg:px-0">
             <span className=" text-[30px]">
                 {title}
             </span>

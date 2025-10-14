@@ -11,7 +11,7 @@ export function Header() {
     return (
         <>
             {/* ================== MAIN HEADER ---------LG ========================*/}
-            <div className="flex flex-row justify-between items-center w-full bg-white px-2 sticky top-0 shadow-lg">
+            <div className="flex flex-row justify-between items-center w-full bg-white px-2 sticky top-0 shadow-md z-50">
                 <NavBrand />
                 <NavLink navLinks={navLinks} cls_name="hidden lg:flex lg:gap-7" />
                 <NavActions actions={list_action} cls_name="hidden lg:flex lg:gap-5 w-[20%]" />
@@ -19,7 +19,7 @@ export function Header() {
                 <NavAccount isLogIn={isLogIn} cls_name="hidden lg:flex" />
             </div>
             {/*===================MOBILE ====================================== */}
-            <div className={`lg:hidden flex flex-col gap-5 bg-slate-100 transition-all duration-300 ease-linear 
+            <div className={`lg:hidden flex flex-col gap-5 bg-white transition-all duration-300 ease-linear 
                 overflow-hidden shadow-md w-full lg:w-1/2 pl-5 ml-auto ${expand ? "max-h-[900px]" : "max-h-0"}`}>
                 <NavLink navLinks={navLinks} cls_name="lg:hidden flex flex-col gap-3 mt-5" />
                 <NavActions actions={list_action} cls_name="lg:hidden flex flex gap-5 mx-auto" />
