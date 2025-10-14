@@ -46,3 +46,9 @@ export const data_service = [
     { id: "ser_3", cls_icon: "bi bi-shield-check", title: "Security Payment", desc: "100% secure transaction" },
     { id: "ser_4", cls_icon: "bi bi-headset", title: "24/7 Support", desc: "Dedicated support team" },
 ]
+
+export const data_sale = [
+    { id: "sal_1", name: "Iphone 14 Pro Max", org_price: "9490000", new_price: "7599000", sale_price: "5459000", img: "eg1.png", discount: "55%" },
+    { id: "sal_2", name: "Iphone 14 Pro Max", org_price: "9490000", new_price: "7599000", sale_price: "5459000", img: "eg1.png", discount: "55%" },
+    { id: "sal_3", name: "Iphone 14 Pro Max", org_price: "9490000", new_price: "7599000", sale_price: "5459000", img: "eg1.png", discount: "55%" },
+]

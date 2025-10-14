@@ -6,7 +6,7 @@ import { list_hotline } from "./data";
 
 export function Footer() {
     return (
-        <div className="flex flex-col bg-gray-900 text-white mt-20">
+        <div className="flex flex-col bg-gray-900 text-white">
             <SubscribleForm />
             <div className="flex flex-col lg:flex-row lg:gap-8">
                 <Present />
