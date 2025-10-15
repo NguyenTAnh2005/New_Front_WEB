@@ -6,7 +6,7 @@ import { data_product, data_article, data_service, data_sale } from "./data.js"
 import banner_img from "../../assets/chess.png"
 
 export function HomePage() {
-    const base_link = "https://res.cloudinary.com/df5mtvzkn/image/upload/WEB_SELL_PHONE__PROJECT/TEST/Test_IMG/"
+    const base_link = "https://res.cloudinary.com/df5mtvzkn/image/upload/q_auto,f_auto/WEB_SELL_PHONE__PROJECT/TEST/Test_IMG/"
     const [products, setProducts] = useState(data_product);
     const [articles, setArticles] = useState(data_article);
     const [services, setService] = useState(data_service);
