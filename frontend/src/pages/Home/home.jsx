@@ -24,24 +24,24 @@ export function HomePage() {
         <>
             <Home_Banner services={services} />
             <div className="flex flex-col items-center bg-white pt-5 pb-10 px-5">
-                <p className="text-black text-[50px] font-semibold capitalize mt-10">Popular Phones</p>
-                <p className="text-[24px] text-gray-600">Discover our best-selling phones</p>
+                <p className="text-black text-[50px] font-semibold capitalize mt-10 text-center">Popular Phones</p>
+                <p className="text-[24px] text-gray-600 text-center">Discover our best-selling phones</p>
                 <div className="mt-10 px-5 grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 gap-x-7 gap-y-7">
                     {copy_products}
                 </div>
                 <button className="mt-10 capitalize text-mainCL font-semibold text-[24px] rounded-xl px-3 py-1 hover:scale-90 hover:bg-mainCL hover:-translate-y-1 hover:text-white transition-all duration-300 ease-linear"> View All Phones</button>
             </div>
             <div className="flex flex-col items-center bg-black pt-5 pb-10 px-5">
-                <p className="text-white text-[50px] font-semibold capitalize mt-10">Special Deals</p>
-                <p className="text-[24px] text-gray-600">Limited time offers - Don't miss out!</p>
+                <p className="text-white text-[50px] font-semibold capitalize mt-10 text-center">Special Deals</p>
+                <p className="text-[24px] text-gray-600 text-center">Limited time offers - Don't miss out!</p>
                 <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-7 gap-y-7">
                     {copy_pSales}
                 </div>
                 <button className="mt-10 capitalize text-mainCL font-semibold text-[24px] rounded-xl px-3 py-1 hover:scale-90 hover:bg-mainCL hover:-translate-y-1 hover:text-white transition-all duration-300 ease-linear"> View All Deals</button>
             </div>
             <div className="flex flex-col items-center bg-white pt-5 pb-10 px-5">
-                <p className="text-black text-[50px] font-semibold capitalize mt-10">Latest Technology Article </p>
-                <p className="text-[24px] text-gray-600">Stay updated with tech news and reviews</p>
+                <p className="text-black text-[50px] font-semibold capitalize mt-10 text-center">Latest Technology Article </p>
+                <p className="text-[24px] text-gray-600 text-center">Stay updated with tech news and reviews</p>
                 <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-7 gap-y-7">
                     {copy_articles}
                 </div>
@@ -63,7 +63,7 @@ function Home_Banner({ services }) {
             <div className="flex flex-col w-full lg:w-[60%]">
                 <p className="text-black text-center text-[45px] font-medium mb-1">Discover Your Perfect Phone</p>
                 <p className="text-gray-600 text-center text-[16px] mb-10">Get the latest smartphones with exclusive deals and fast delivery. Premium quality at unbeatable prices.</p>
-                <div className=" grid gap-5 grid-cols-2 md:grid-cols-4">
+                <div className=" grid gap-5 mx-5 grid-cols-2 md:grid-cols-4">
                     {copy_services}
                 </div>
             </div>

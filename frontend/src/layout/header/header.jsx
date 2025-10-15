@@ -1,6 +1,8 @@
-import { useState } from "react"
+import { useLocation } from "react-router-dom"
+import { use, useState } from "react"
 import { useImmer } from "use-immer"
 import { list_nav, list_action } from "./data.js"
+import { Link } from "react-router-dom";
 export function Header() {
     const [navLinks, setNavLinks] = useState(list_nav);
     const [expand, setExpand] = useState(false);
@@ -41,19 +43,20 @@ function NavBrand() {
     )
 }
 function NavLink({ navLinks, cls_name = "" }) {
-    const nav_links = navLinks.map(ni => (<NavItem nav_item={ni} key={ni.id} />))
+    const location = useLocation();
+    const nav_links = navLinks.map(ni => (<NavItem nav_item={ni} key={ni.id} location={location} />))
     return (
         <ul className={cls_name + " list-none"} >
             {nav_links}
         </ul>
     )
 }
-function NavItem({ nav_item }) {
+function NavItem({ nav_item, location }) {
     return (
-        <li className="text-lg xl:text-xl text-gray-400 font-medium relative group hover:text-mainCL transition-colors duration-300 ease-linear">
-            <a href={"/" + nav_item.content}>
+        <li className={`text-lg xl:text-xl text-gray-400 font-medium relative group hover:text-mainCL transition-colors duration-300 ease-linear ${location.pathname === `/${nav_item.content}` && "text-mainCL"}`}>
+            <Link to={"/" + nav_item.content} >
                 {nav_item.content}
-            </a >
+            </Link >
             <span className=" hidden lg:block absolute  h-0.5 bg-mainCL translate-y-3 w-0 group-hover:w-full group-hover:-translate-x-[0%] z-10 bottom-0 left-0 translate-x-[50%] transition-all ease-linear duration-400">
 
             </span>

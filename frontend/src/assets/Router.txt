@@ -1,0 +1,138 @@
+Rất hay 👏 — câu hỏi này cho thấy bạn đang muốn hiểu cơ chế “bên trong React Router” thật sự hoạt động thế nào, chứ không chỉ “xài được”.
+
+Ok, mình sẽ đi sâu ở cấp độ “bên trong” — giúp bạn hiểu điều gì xảy ra khi bạn click vào một link trong Header, từ đầu đến cuối, từng tầng React xử lý ra sao.
+
+🎯 Giả sử bạn đang ở trang /Home, và bạn bấm vào link “Phones”
+
+Cụ thể:
+
+<Link to="/Phones">Phones</Link>
+
+🧩 Bước 1. Bạn click vào link
+
+Nếu bạn dùng <a href="/Phones">, trình duyệt sẽ reload lại trang mới → tải lại index.html, mất toàn bộ state.
+
+Nhưng <Link> từ react-router-dom chặn hành vi reload này.
+
+💡 Cụ thể:
+<Link> có event onClick bên trong, khi bạn click:
+
+event.preventDefault(); // chặn reload trang
+
+
+Sau đó, nó gọi hàm nội bộ navigate("/Phones") để thay đổi URL bằng JavaScript mà không tải lại trang.
+
+🧠 Bước 2. Router thay đổi URL “ảo” (SPA)
+
+react-router-dom sử dụng HTML5 History API, cụ thể là:
+
+window.history.pushState({}, '', '/Phones');
+
+
+Điều này:
+
+Thay đổi thanh địa chỉ trình duyệt thành /Phones
+
+Nhưng không gửi request mới lên server
+
+Không reload trang
+
+Không phá hủy React component đang chạy
+
+Nói cách khác, bạn vừa “chuyển trang” mà không rời khỏi trang thật 😎
+
+🔄 Bước 3. Router phát hiện thay đổi URL
+
+Khi BrowserRouter khởi tạo, nó:
+
+Lắng nghe sự kiện popstate (mỗi khi URL thay đổi)
+
+Lưu URL hiện tại vào React state nội bộ
+
+Khi bạn bấm Link, URL đổi → Router cập nhật state:
+
+currentPath = "/Phones"
+
+
+Khi currentPath thay đổi → React render lại (re-render) phần <Routes> bên trong.
+
+🧩 Bước 4. <Routes> chạy logic “match route”
+
+Giờ React Router sẽ kiểm tra từng <Route> con:
+
+<Route path='/' element={<HomePage />} />
+<Route path='/Home' element={<HomePage />} />
+<Route path='/Phones' element={<PhonesPage />} />
+
+
+Nó sẽ so khớp theo path pattern matching (dựa vào currentPath).
+
+URL hiện tại là /Phones
+
+Nó match đúng path="/Phones"
+
+Vì vậy, Router sẽ render:
+
+<PhonesPage />
+
+🎨 Bước 5. React render lại UI
+
+Lúc này React thực hiện:
+
+Giữ nguyên <Header /> (vì nằm ngoài <Routes>)
+
+Giữ nguyên <Footer /> (vì nằm ngoài <Router> hoặc <Routes>)
+
+Thay component trong <Routes> bằng <PhonesPage />
+
+Kết quả:
+👉 Giao diện đổi sang trang “Phones” tức thì,
+👉 Không mất trạng thái (state),
+👉 Không reload trang,
+👉 Không request lại server.
+
+💾 Bước 6. (Tùy chọn) Browser Back / Forward vẫn hoạt động
+
+Nhờ History API, nếu bạn nhấn Back:
+
+Trình duyệt phát sự kiện popstate
+
+BrowserRouter bắt sự kiện đó
+
+Cập nhật lại currentPath thành /Home
+
+React render lại <HomePage />
+
+Mọi thứ hoạt động như website bình thường, nhưng tất cả chỉ là client-side navigation (điều hướng phía client).
+
+🧠 Tổng kết cơ chế
+Giai đoạn	Điều gì xảy ra
+1. Click Link	preventDefault() → chặn reload
+2. Update URL	window.history.pushState() thay đổi thanh địa chỉ
+3. Router cập nhật state	Lưu URL mới (/Phones) vào React state
+4. Routes so khớp	Tìm <Route path='/Phones'>
+5. React re-render	Render lại phần <Routes> → hiển thị PhonesPage
+6. Header/Footer giữ nguyên	Vì nằm ngoài <Routes>
+7. Back/Forward hoạt động	Vì dùng History API chuẩn
+
++--------------------------------------------------+
+| Header (cố định)                                 |
++--------------------------------------------------+
+| Routes                                           |
+|   ├── "/" → HomePage (trước khi click)           |
+|   └── "/Phones" → PhonesPage (sau khi click)     |
++--------------------------------------------------+
+| Footer (cố định)                                 |
++--------------------------------------------------+
+
+Bạn click “Phones” →
+→ React Router đổi URL, match route mới
+→ Render PhonesPage (thay HomePage)
+→ Header/Footer vẫn nguyên.
+⚡ Và điểm mấu chốt
+
+React Router không “chuyển trang” thật,
+mà “đánh lừa” trình duyệt bằng cách thay đổi URL trong bộ nhớ,
+rồi render lại một phần trong React.
+
+Đó là lý do React App gọi là Single Page Application (SPA) — chỉ có một file HTML, nhưng nhiều “trang ảo”.
