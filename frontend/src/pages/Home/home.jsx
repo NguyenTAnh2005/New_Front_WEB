@@ -63,12 +63,12 @@ function Home_Banner({ services }) {
             <div className="flex flex-col w-full lg:w-[60%]">
                 <p className="text-black text-center text-[45px] font-medium mb-1">Discover Your Perfect Phone</p>
                 <p className="text-gray-600 text-center text-[16px] mb-10">Get the latest smartphones with exclusive deals and fast delivery. Premium quality at unbeatable prices.</p>
-                <div className="flex justify-evenly">
+                <div className=" grid gap-5 grid-cols-2 md:grid-cols-4">
                     {copy_services}
                 </div>
             </div>
             <div className="w-full lg:w-[40%] rounded-2xl">
-                <img src={banner_img} className="w-[60%] lg:w-[80%] mx-auto mt-10 lg:mt-0 shadow-2xl rounded-2xl" alt="" />
+                <img src={banner_img} className="w-[80%] mx-auto mt-10 lg:mt-0 shadow-2xl rounded-2xl" alt="" />
             </div>
         </div>
     )
@@ -77,8 +77,8 @@ function Service_Item({ service }) {
     return (
         <div className="flex flex-col bg-white items-center p-1 rounded-xl border border-1 border-white hover:shadow-mainCL hover:shadow-md hover:border-mainCL  hover:-translate-y-1 transition-all duration-300 ease-linear">
             <i className={`${service.cls_icon} text-[35px] text-mainCL`}></i>
-            <p className="text-[18px] font-semibold">{service.title}</p>
-            <p className="text-gray-600 text-[12px]">{service.desc}</p>
+            <p className="text-[18px] font-semibold text-center">{service.title}</p>
+            <p className="text-gray-600 text-[12px] text-center">{service.desc}</p>
         </div>
     )
 }
