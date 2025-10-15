@@ -21,15 +21,22 @@ export function ProductCard({ product }) {
                 {product.name}
             </span>
             <span className="text-[14px]">{product.desc} </span>
-            <span
-                title="Original Price"
-                className="mt-3 line-through text-[18px] font-thin text-gray-500">{product.org_price}.000</span>
-
-            <span
-                title="New Price"
-                className="text-mainCL align-text-bottom font-sans font-bold text-2xl">
-                {product.new_price}<span className="text-xs font-bold me-2">.000</span> đ
-            </span>
+            <div className="flex justify-between mx-2 items-center mt-2">
+                <span className="capitalize font-semibold text-gray-500">Original Price</span>
+                <span
+                    title="Original Price"
+                    className="mt-3 line-through text-[18px] font-thin text-gray-500">{product.org_price}.000 đ
+                </span>
+            </div>
+            <div className="flex justify-between mx-2">
+                <span className="capitalize font-semibold">New Price</span>
+                <span
+                    title="New Price"
+                    className="text-mainCL align-text-bottom font-sans font-bold text-2xl">
+                    {product.new_price}.000 đ
+                </span>
+            </div>
+            <hr className="h-[1px] border-gray-200" />
 
             <div className="mt-5 flex justify-between px-5">
                 <button className="min-w-fit bg-mainCL px-3 py-1 capitalize hover:scale-90

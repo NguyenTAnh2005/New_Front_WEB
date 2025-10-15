@@ -39,7 +39,7 @@ export function HomePage() {
                 </div>
                 <button className="mt-10 capitalize text-mainCL font-semibold text-[24px] rounded-xl px-3 py-1 hover:scale-90 hover:bg-mainCL hover:-translate-y-1 hover:text-white transition-all duration-300 ease-linear"> View All Deals</button>
             </div>
-            <div className="flex flex-col items-center bg-white pt-5 pb-10 mx-5">
+            <div className="flex flex-col items-center bg-white pt-5 pb-10 px-5">
                 <p className="text-black text-[50px] font-semibold capitalize mt-10">Latest Technology Article </p>
                 <p className="text-[24px] text-gray-600">Stay updated with tech news and reviews</p>
                 <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-7 gap-y-7">
