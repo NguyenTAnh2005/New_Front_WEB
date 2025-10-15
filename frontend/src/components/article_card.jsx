@@ -1,12 +1,12 @@
-import chessImg from '../assets/chess.png'
 import { useState } from 'react'
 
-export function ArticleCard({ article }) {
+export function ArticleCard({ article, baselink }) {
     return (
         <div className='flex flex-col w-full max-w-[450px] border bg-white rounded-lg group hover:shadow-2xl
         hover:-translate-y-1 transition-all duration-300 ease-linear mx-auto'>
             <div className='overflow-hidden rounded-tr-lg rounded-tl-lg'>
-                <img src={chessImg} className='w-full group-hover:scale-110 transition-transform ease-linear duration-300' />
+                <img src={`${baselink}${article.img_link}`} className='w-full group-hover:scale-110 transition-transform ease-linear duration-300'
+                    loading='lazy' alt={article.title} />
             </div>
             <div className='flex flex-col px-3'>
                 <p className='text-black font-medium text-[24px]'>

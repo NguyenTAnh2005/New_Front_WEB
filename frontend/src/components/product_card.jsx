@@ -1,6 +1,5 @@
-import egimg1 from "../assets/eg1.png"
 import { useEffect, useState } from "react"
-export function ProductCard({ product }) {
+export function ProductCard({ product, baselink }) {
     const [favorite, setFavorite] = useState(false);
     function changeStatefavorite() {
         setFavorite(!favorite);
@@ -11,9 +10,9 @@ export function ProductCard({ product }) {
          hover:shadow-lg hover:shadow-mainCL hover:border-mainCL hover:-translate-y-1 
          transition-all duration-300 ease-linear bg-white relative">
             <div className="rounded-lg overflow-hidden">
-                <img src={egimg1}
-                    className="w-full rounded-lg transition-transform duration-300 ease-in-out group-hover:scale-110 aspect-square object-cover"
-                    alt="product" />
+                <img src={`${baselink}${product.img_link}`}
+                    className="w-full rounded-lg transition-transform duration-300 ease-in-out group-hover:scale-110 aspect-square object-cover" loading="lazy"
+                    alt={product.name} />
             </div>
             <span
                 title="iPhone 14 Promax"
