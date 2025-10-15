@@ -1,0 +1,29 @@
+[
+    {
+        "id": "sal_1",
+        "name": "Iphone 14 Pro Max",
+        "org_price": "9490000",
+        "new_price": "7599000",
+        "sale_price": "5459000",
+        "img_link": "eg_phone",
+        "discount": "55%"
+    },
+    {
+        "id": "sal_2",
+        "name": "Iphone 14 Pro Max",
+        "org_price": "9490000",
+        "new_price": "7599000",
+        "sale_price": "5459000",
+        "img_link": "eg_phone",
+        "discount": "55%"
+    },
+    {
+        "id": "sal_3",
+        "name": "Iphone 14 Pro Max",
+        "org_price": "9490000",
+        "new_price": "7599000",
+        "sale_price": "5459000",
+        "img_link": "eg_phone",
+        "discount": "55%"
+    }
+]

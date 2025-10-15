@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { ProductCard } from "../../components/product_card"
 import { ArticleCard } from "../../components/article_card"
 import { Product_Deals } from "../../components/product_deals.jsx"
@@ -7,16 +7,43 @@ import banner_img from "../../assets/chess.png"
 
 export function HomePage() {
     const base_link = "https://res.cloudinary.com/df5mtvzkn/image/upload/q_auto,f_auto/WEB_SELL_PHONE__PROJECT/TEST/Test_IMG/"
-    const [products, setProducts] = useState(data_product);
-    const [articles, setArticles] = useState(data_article);
+    const [products, setProducts] = useState([]);
+    const [articles, setArticles] = useState([]);
+    const [pSales, setPSales] = useState([]);
     const [services, setService] = useState(data_service);
-    const [pSales, setPSales] = useState(data_sale);
+    useEffect(() => {
+        async function loadAllData() {
+            const [product_data, article_data, deal_data] = await Promise.all([
+                /* Với file json thì vite cấu hình nên để ngoài thư mục src,
+                 thường để trong public và với các file public khi import path 
+                 thi tự dộng cd về root sẵn nên ko cần ../ hay ./ = FROM CHAT GPT = 
+                 => KO hiểu lắm => Tính năng mới (0`_o)  \(0 o 0)/ @_@*/
+                fetchJsonToListObj("/products.json"),
+                fetchJsonToListObj("/articles.json"),
+                fetchJsonToListObj("/deals.json")
+            ]);
+            setProducts(product_data);
+            setPSales(deal_data);
+            setArticles(article_data);
+        }
+        loadAllData();
+    }, []);
+    /* Lam fetc co tung list thi hoi loang ngoang, ket hop voi promise de fetch chung 1 lan tien hon - Cre Chat GPT*/
+    // useEffect(() => {
+    //     async function fetchData() {
+    //         const data = await fetchJsonToListObj("/products.json");
+    //         setProducts(data);
+    //     }
+    //     fetchData();
+    // }, []);
     const copy_products = products.map(p => {
         return <ProductCard key={p.id + p.version} product={p} baselink={base_link} />
     });
+
     const copy_articles = articles.map(a => {
         return <ArticleCard article={a} key={a.id} baselink={base_link} />
     });
+
     const copy_pSales = pSales.map(ps => {
         return <Product_Deals p_sale={ps} key={ps.id} baselink={base_link} />
     });
@@ -80,4 +107,17 @@ function Service_Item({ service }) {
             <p className="text-gray-600 text-[12px] text-center">{service.desc}</p>
         </div>
     )
+}
+
+async function fetchJsonToListObj(src_fetch) {
+    try {
+        const response = await fetch(src_fetch);
+        !response.ok && { throw: new Error("Loading") }
+        const data = await response.json();
+        return data;
+    }
+    catch (error) {
+        console.error("Loi Fetch DL:" + error);
+        return [];
+    }
 }
