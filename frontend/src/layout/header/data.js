@@ -7,9 +7,7 @@ export const list_nav = [
 ]
 
 export const list_action = [
-    { id: "act_search", content: "Search", clsicon: "ri-search-line" },
-    { id: "act_favorite", content: "Favorite", clsicon: "ri-poker-hearts-line" },
-    { id: "act_cart", content: "Cart", clsicon: "ri-shopping-cart-2-line" },
+    { id: "act_search", content: "Search", clsicon: "bi bi-search" },
+    { id: "act_favorite", content: "Favorite", clsicon: "bi bi-heart" },
+    { id: "act_cart", content: "Cart", clsicon: "bi bi-cart-check" },
 ]
-
-// { id: "act_login", content: "Log In", clsicon: "ri-account-circle-line" }

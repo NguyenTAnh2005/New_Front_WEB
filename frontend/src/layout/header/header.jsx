@@ -90,7 +90,7 @@ function NavAccount({ isLogIn, cls_name = "" }) {
     return (
         <button className={`flex flex-col xl:flex-row xl:justify-center items-center text-mainCL group lg:w-[10%]
         hover:text-white rounded-lg hover:pr-6 hover:bg-mainCL hover:shadow-lg hover:shadow-mainCL transition-all duration-400 ease-linear px-4 py-2 ${cls_name}`}>
-            <i className="ri-account-circle-line text-2xl group-hover:ms-0 align-middle"></i>
+            <i className="bi bi-person-vcard text-2xl group-hover:ms-0 align-middle"></i>
             <span className="hidden text-xl group-hover:block transition-all duration-400 ease-linear">
                 {`${isLogIn ? "Hello" : "Log In"}`}
             </span>
