@@ -11,12 +11,14 @@ import { PhonesPage } from './pages/Phones/phones.jsx'
 import { ArticlesPage } from './pages/Articles/artices.jsx'
 import { ContactsPage } from './pages/Contacts/contacts.jsx'
 import { DealsPage } from './pages/Deals/deals.jsx'
+import { LogIn } from './components/login_signup_forgotpass/login.jsx'
 
 function App() {
+  const hideHeaderFooter = location.pathname === "/login";
   return (
     <>
       <Router>
-        <Header />
+        {!hideHeaderFooter && <Header />}
         <Routes>
           <Route path='/' element={<HomePage />} />
           <Route path='/Home' element={<HomePage />} />
@@ -24,9 +26,10 @@ function App() {
           <Route path='/Phones' element={<PhonesPage />} />
           <Route path='/Articles' element={<ArticlesPage />} />
           <Route path='/Contact' element={<ContactsPage />} />
+          <Route path='/login' element={<LogIn />} />
         </Routes>
+        {!hideHeaderFooter && <Footer />}
       </Router>
-      <Footer />
     </>
   );
 }

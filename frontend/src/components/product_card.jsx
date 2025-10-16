@@ -6,7 +6,7 @@ export function ProductCard({ product, baselink }) {
     }
     return (
         <div
-            className="flex flex-col w-full max-w-[350px] border rounded-2xl border-gray-200 p-2 pb-4 group mx-auto overflow-hidden
+            className="flex flex-col w-full max-w-[300px] border rounded-2xl border-gray-200 p-2 pb-4 group mx-auto overflow-hidden
          hover:shadow-lg hover:shadow-mainCL hover:border-mainCL hover:-translate-y-1 
          transition-all duration-300 ease-linear bg-white relative">
             <div className="rounded-lg overflow-hidden">
@@ -31,7 +31,7 @@ export function ProductCard({ product, baselink }) {
                 <span className="capitalize font-semibold">New Price</span>
                 <span
                     title="New Price"
-                    className="text-mainCL align-text-bottom font-sans font-bold text-2xl">
+                    className="text-mainCL align-text-bottom font-sans font-bold text-[18px]">
                     {product.new_price}.000 đ
                 </span>
             </div>
@@ -41,13 +41,13 @@ export function ProductCard({ product, baselink }) {
                 <button className="min-w-fit bg-mainCL px-3 py-1 capitalize hover:scale-90
                  text-2xl text-white rounded-lg transition-all duration-300 ease-linear">
                     <i className="bi bi-cart-plus"></i>
-                    <span className="ms-2">add to cart</span>
+                    <span className="ms-2 text-[18px]">add to cart</span>
                 </button>
                 <button
                     title="List Favorite" onClick={changeStatefavorite}
                     className={`px-3  rounded-lg text-xl
                  border border-1 ${!favorite ? "border-mainCL bg-white text-mainCL" : "border-white bg-mainCL text-white"} transition-all duration-300 ease-linear`}>
-                    <i className="ri-poker-hearts-line"></i>
+                    <i className="bi bi-heart"></i>
                 </button>
             </div>
             <div className="flex bg-mainCL absolute top-2 px-2 left-2 rounded-lg text-white font-semibold text-[16px] 

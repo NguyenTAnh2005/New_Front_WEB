@@ -15,11 +15,11 @@ export function ArticleCard({ article, baselink }) {
                 <p className='text-gray-500'>
                     {article.desc}
                 </p>
-                <a href={article.link} className='ml-auto text-[18px] py-2 mt-6 mb-3 flex text-mainCL transition-all duration-300 ease-linear
+                <div className='ml-auto text-[18px] py-2 mt-6 mb-3 flex text-mainCL transition-all duration-300 ease-linear
             group items-center '>
-                    <p>Read More</p>
+                    <a href={article.link} className='cursor-pointer'>Read More</a>
                     <i className="bi bi-arrow-right-short text-[24px] group-hover:translate-x-1 transition-all duration-300 ease-linear"></i>
-                </a>
+                </div>
             </div>
 
         </div>

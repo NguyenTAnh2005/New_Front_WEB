@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom"
+import { Links, useLocation } from "react-router-dom"
 import { use, useState } from "react"
 import { useImmer } from "use-immer"
 import { list_nav, list_action } from "./data.js"
@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export function Header() {
     const [navLinks, setNavLinks] = useState(list_nav);
     const [expand, setExpand] = useState(false);
-    const [isLogIn, setIsLogIn] = useState(true);
+    const [isLogIn, setIsLogIn] = useState(false);
     function changeMode() {
         setExpand(!expand);
     }
@@ -22,7 +22,7 @@ export function Header() {
             </div>
             {/*===================MOBILE ====================================== */}
             <div className={`lg:hidden flex flex-col gap-5 bg-white transition-all duration-500 ease-linear absolute 
-                overflow-hidden shadow-md w-full lg:w-1/2 pl-5 ml-auto ${expand ? "max-h-[900px]" : "max-h-0"}`}>
+                overflow-hidden shadow-md w-full lg:w-1/2 pl-5 ml-auto ${expand ? "max-h-[900px]" : "max-h-0 z-99"}`}>
                 <NavLink navLinks={navLinks} cls_name="lg:hidden flex flex-col gap-3 mt-5" />
                 <NavActions actions={list_action} cls_name="lg:hidden flex flex gap-5 mx-auto" />
                 <div className="flex justify-center mb-5">
@@ -35,7 +35,7 @@ export function Header() {
 }
 function NavBrand() {
     return (
-        <a className="flex items-center text-mainCL text-2xl md:text-3xl lg:text-4xl py-4" href="/Home">
+        <a className="flex items-center text-mainCL text-xl md:text-[28px] lg:text-[30px] py-4" href="/Home">
             <i className="bi bi-phone me-1"></i>
             <span className="me-2 font-bold"> Phone </span>
             <span className="font-thin"> React</span>
@@ -53,7 +53,7 @@ function NavLink({ navLinks, cls_name = "" }) {
 }
 function NavItem({ nav_item, location }) {
     return (
-        <li className={`text-lg xl:text-xl text-gray-400 font-medium relative group hover:text-mainCL transition-colors duration-300 ease-linear ${location.pathname === `/${nav_item.content}` && "text-mainCL"}`}>
+        <li className={`text-[16px] text-gray-400 font-medium relative group hover:text-mainCL transition-colors duration-300 ease-linear ${location.pathname === `/${nav_item.content}` && "text-mainCL"}`}>
             <Link to={"/" + nav_item.content} >
                 {nav_item.content}
             </Link >
@@ -73,27 +73,27 @@ function NavActions({ actions, cls_name = "" }) {
 }
 function Action({ action }) {
     return (
-        <button id={action.id} className="flex flex-col xl:flex-row xl:justify-center items-center text-mainCL group 
-        hover:text-white rounded-lg hover:pr-6 hover:bg-mainCL hover:shadow-lg hover:shadow-mainCL transition-all duration-400 ease-linear px-4 py-2">
-            <i className={action.clsicon + " text-2xl group-hover:ms-0 align-middle"}></i>
+        <button id={action.id} className="flex flex-col xl:flex-row justify-center xl:gap-2 gap-0 items-center text-mainCL group text-[16px]
+        hover:text-white rounded-lg hover:pr-6 hover:bg-mainCL hover:shadow-lg hover:shadow-mainCL transition-all duration-400 ease-linear px-2 py-1">
+            <i className={action.clsicon + "  align-middle"}></i>
             <span className="hidden text-xl group-hover:block transition-all duration-400 ease-linear">{action.content}</span>
         </button>
     )
 }
 function ToggleNav({ changeMode }) {
     return (
-        <i className="ri-menu-fill text-4xl bg-white p-2 rounded-lg block lg:hidden" onClick={changeMode}></i>
+        <i className="bi bi-list text-4xl bg-white p-2 rounded-lg block lg:hidden" onClick={changeMode}></i>
     )
 
 }
 function NavAccount({ isLogIn, cls_name = "" }) {
     return (
-        <button className={`flex flex-col xl:flex-row xl:justify-center items-center text-mainCL group lg:w-[10%]
-        hover:text-white rounded-lg hover:pr-6 hover:bg-mainCL hover:shadow-lg hover:shadow-mainCL transition-all duration-400 ease-linear px-4 py-2 ${cls_name}`}>
-            <i className="bi bi-person-vcard text-2xl group-hover:ms-0 align-middle"></i>
+        <Link to="/login" className={`flex flex-col xl:flex-row xl:justify-center items-center text-mainCL group lg:w-[10%]
+        hover:text-white rounded-lg hover:pr-6 hover:bg-mainCL hover:shadow-lg hover:shadow-mainCL transition-all duration-400 ease-linear px-2 py-1 ${cls_name}`}>
+            <i className="bi bi-person-vcard text-2xl group-hover:me-2 align-middle"></i>
             <span className="hidden text-xl group-hover:block transition-all duration-400 ease-linear">
                 {`${isLogIn ? "Hello" : "Log In"}`}
             </span>
-        </button>
+        </Link>
     )
 }

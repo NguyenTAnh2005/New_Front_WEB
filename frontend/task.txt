@@ -1,0 +1,11 @@
+code 
+components:
+	- Login, sign up, forgot pass
+	- Product details
+page:
+	- Phones
+	- Deals
+	- Articles
+	- Contact
+	- Account Manager
+	

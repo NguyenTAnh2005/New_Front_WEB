@@ -18,6 +18,8 @@ export function HomePage() {
                  thường để trong public và với các file public khi import path 
                  thi tự dộng cd về root sẵn nên ko cần ../ hay ./ = FROM CHAT GPT = 
                  => KO hiểu lắm => Tính năng mới (0`_o)  \(0 o 0)/ @_@*/
+
+
                 fetchJsonToListObj("/products.json"),
                 fetchJsonToListObj("/articles.json"),
                 fetchJsonToListObj("/deals.json")
@@ -52,24 +54,24 @@ export function HomePage() {
         <>
             <Home_Banner services={services} />
             <div className="flex flex-col items-center bg-white pt-5 pb-10 px-5">
-                <p className="text-black text-[50px] font-semibold capitalize mt-10 text-center">Popular Phones</p>
-                <p className="text-[24px] text-gray-600 text-center">Discover our best-selling phones</p>
+                <p className="text-black text-[40px] font-semibold capitalize mt-10 text-center">Popular Phones</p>
+                <p className="text-[20px] text-gray-600 text-center">Discover our best-selling phones</p>
                 <div className="mt-10 px-5 grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 gap-x-7 gap-y-7">
                     {copy_products}
                 </div>
                 <button className="mt-10 capitalize text-mainCL font-semibold text-[24px] rounded-xl px-3 py-1 hover:scale-90 hover:bg-mainCL hover:-translate-y-1 hover:text-white transition-all duration-300 ease-linear"> View All Phones</button>
             </div>
             <div className="flex flex-col items-center bg-black pt-5 pb-10 px-5">
-                <p className="text-white text-[50px] font-semibold capitalize mt-10 text-center">Special Deals</p>
-                <p className="text-[24px] text-gray-600 text-center">Limited time offers - Don't miss out!</p>
+                <p className="text-white text-[40px] font-semibold capitalize mt-10 text-center">Special Deals</p>
+                <p className="text-[20px] text-gray-600 text-center">Limited time offers - Don't miss out!</p>
                 <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-7 gap-y-7">
                     {copy_pSales}
                 </div>
                 <button className="mt-10 capitalize text-mainCL font-semibold text-[24px] rounded-xl px-3 py-1 hover:scale-90 hover:bg-mainCL hover:-translate-y-1 hover:text-white transition-all duration-300 ease-linear"> View All Deals</button>
             </div>
             <div className="flex flex-col items-center bg-white pt-5 pb-10 px-5">
-                <p className="text-black text-[50px] font-semibold capitalize mt-10 text-center">Latest Technology Article </p>
-                <p className="text-[24px] text-gray-600 text-center">Stay updated with tech news and reviews</p>
+                <p className="text-black text-[40px] font-semibold capitalize mt-10 text-center">Latest Technology Article </p>
+                <p className="text-[20px] text-gray-600 text-center">Stay updated with tech news and reviews</p>
                 <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-7 gap-y-7">
                     {copy_articles}
                 </div>
