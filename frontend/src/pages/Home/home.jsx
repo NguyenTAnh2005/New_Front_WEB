@@ -51,7 +51,7 @@ export function HomePage() {
     });
 
     return (
-        <>
+        <div className="animate__animated animate__fadeIn">
             <Home_Banner services={services} />
             <div className="flex flex-col items-center bg-white pt-5 pb-10 px-5">
                 <p className="text-black text-[40px] font-semibold capitalize mt-10 text-center">Popular Phones</p>
@@ -78,7 +78,7 @@ export function HomePage() {
                 <button className="mt-10 capitalize text-mainCL font-semibold text-[24px] rounded-xl px-3 py-1 hover:scale-90 hover:bg-mainCL hover:-translate-y-1 hover:text-white transition-all duration-300 ease-linear"> View All Article</button>
             </div>
 
-        </>
+        </div>
     )
 }
 
