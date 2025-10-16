@@ -104,7 +104,7 @@ function Home_Banner({ services }) {
 function Service_Item({ service }) {
     return (
         <div className="flex flex-col bg-white items-center p-1 rounded-xl border border-1 border-white hover:shadow-mainCL hover:shadow-md hover:border-mainCL  hover:-translate-y-1 transition-all duration-300 ease-linear">
-            <i className={`${service.cls_icon} text-[35px] text-mainCL`}></i>
+            <i className={`${service.cls_icon} text-[25px] text-mainCL`}></i>
             <p className="text-[18px] font-semibold text-center">{service.title}</p>
             <p className="text-gray-600 text-[12px] text-center">{service.desc}</p>
         </div>
