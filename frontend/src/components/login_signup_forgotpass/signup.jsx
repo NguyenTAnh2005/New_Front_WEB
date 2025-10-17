@@ -2,8 +2,13 @@ import { useState } from "react";
 import { Input, InputPassword, Or } from "./input";
 import { Link } from "react-router-dom";
 export function SignUp() {
+    const [valueChecked, setValueChecked] = useState("");
+    function changeValueChecked(id) {
+        setValueChecked(id);
+    }
+
     return (
-        <div className="flex animate__animated animate__fadeIn">
+        <div className="flex items-center animate__animated animate__fadeIn">
             <form action="" method="post" className="w-[55%] text-gray-500 min-w-[350px] px-5 py-5 my-10 rounded-xl border-gray-300 border-[1px] mx-auto bg-white">
                 <div className="text-center mb-5">
                     <p className="text-[28px] font-bold text-black">Join us today!</p>
@@ -12,16 +17,21 @@ export function SignUp() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-2.5">
                     <Input label_content={"First name"} id_input={"su_ip1"} cls_icon={"bi bi-person-vcard"} type={"text"} />
                     <Input label_content={"Last name"} id_input={"su_ip2"} cls_icon={"bi bi-person-vcard"} type={"text"} />
-                    <Input label_content={"Emal Address"} id_input={"su_ip3"} cls_icon={"bi bi-envelope"} type={"text"} />
+                    <Input label_content={"Emal Address"} id_input={"su_ip3"} cls_icon={"bi bi-envelope"} type={"email"} />
                     <div className="mt-2 lg:row-start-4 lg:col-span-full">
-                        <p className="text-black font-semibold mb-1 capitalize text-center">
-                            Gender
-                        </p>
-                        <InputGender />
+                        <p className="text-black font-semibold mb-1 capitalize text-center"> Gender</p>
+                        <div className=" flex justify-center gap-5 items-center">
+                            <ValueInputRadio
+                                name={"gender"} id_input={"su_ip7_1"} cls_icon={"bi bi-gender-male"} content={"Male"}
+                                valueChecked={valueChecked} changeValueChecked={() => { changeValueChecked("su_ip7_1") }} />
+                            <ValueInputRadio
+                                name={"gender"} id_input={"su_ip7_2"} cls_icon={"bi bi-gender-female"} content={"Female"}
+                                valueChecked={valueChecked} changeValueChecked={() => { changeValueChecked("su_ip7_2") }} />
+                        </div>
                     </div>
-                    <Input label_content={"Birth day"} id_input={"su_ip6"} cls_icon={"bi bi-cake2"} type={"date"} />
-                    <InputPassword label_content={"Password"} id_input={"su_ip4"} />
-                    <InputPassword label_content={"register password"} id_input={"su_ip5"} />
+                    <Input label_content={"Birth day"} id_input={"su_ip4"} cls_icon={"bi bi-cake2"} type={"date"} />
+                    <InputPassword label_content={"Password"} id_input={"su_ip5"} />
+                    <InputPassword label_content={"register password"} id_input={"su_ip6"} />
 
                 </div>
                 <button
@@ -43,28 +53,6 @@ export function SignUp() {
     )
 }
 
-export function InputGender() {
-    const [valueChecked, setValueChecked] = useState("");
-    function changeValueChecked(id) {
-        setValueChecked(id);
-    }
-    return (
-
-        <div className=" flex justify-center gap-5 items-center">
-            <ValueInputRadio
-                name={"gender"} id_input={"su_ip7_1"} cls_icon={"bi bi-gender-male"} content={"Male"}
-                valueChecked={valueChecked} changeValueChecked={() => { changeValueChecked("su_ip7_1") }}
-            />
-
-            <ValueInputRadio
-                name={"gender"} id_input={"su_ip7_2"} cls_icon={"bi bi-gender-female"} content={"Female"}
-                valueChecked={valueChecked} changeValueChecked={() => { changeValueChecked("su_ip7_2") }}
-            />
-
-        </div>
-    )
-}
-
 export function ValueInputRadio({ name, id_input, cls_icon, content, valueChecked, changeValueChecked }) {
     return (
         <div>
@@ -78,3 +66,26 @@ export function ValueInputRadio({ name, id_input, cls_icon, content, valueChecke
         </div>
     )
 }
+
+
+// export function InputGender() {
+//     const [valueChecked, setValueChecked] = useState("");
+//     function changeValueChecked(id) {
+//         setValueChecked(id);
+//     }
+//     return (
+
+//         <div className=" flex justify-center gap-5 items-center">
+//             <ValueInputRadio
+//                 name={"gender"} id_input={"su_ip7_1"} cls_icon={"bi bi-gender-male"} content={"Male"}
+//                 valueChecked={valueChecked} changeValueChecked={() => { changeValueChecked("su_ip7_1") }}
+//             />
+
+//             <ValueInputRadio
+//                 name={"gender"} id_input={"su_ip7_2"} cls_icon={"bi bi-gender-female"} content={"Female"}
+//                 valueChecked={valueChecked} changeValueChecked={() => { changeValueChecked("su_ip7_2") }}
+//             />
+
+//         </div>
+//     )
+// }

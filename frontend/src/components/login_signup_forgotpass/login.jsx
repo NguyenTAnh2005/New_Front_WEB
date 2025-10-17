@@ -12,8 +12,8 @@ export function LogIn() {
                 <div className="mb-4"><Input type={"email"} label_content={"Email Address"} id={"li_ip1"} cls_icon={"bi bi-envelope"} /></div>
                 <div className="mb-4"><InputPassword label_content={"password"} id_input={"li_ip2"} /></div>
 
-                <div className="text-xs font-semibold text-mainCL text-end">
-                    <a href="">forgot password?</a>
+                <div className="text-xs font-semibold text-mainCL text-end capitalize">
+                    <Link to="/forgot-password">forgot password?</Link>
                 </div>
                 <button type="submit" className="bg-mainCL w-full rounded-lg mt-5 text-white text-[20px] font-semibold items-center py-1 mb-2">
                     Log In

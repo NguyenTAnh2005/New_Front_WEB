@@ -1,5 +1,5 @@
 import { Links, useLocation } from "react-router-dom"
-import { use, useState } from "react"
+import { useEffect, useState } from "react"
 import { useImmer } from "use-immer"
 import { list_nav, list_action } from "./data.js"
 import { Link } from "react-router-dom";
@@ -10,6 +10,9 @@ export function Header() {
     function changeMode() {
         setExpand(!expand);
     }
+    useEffect(() => {
+        setExpand(false);
+    }, [location.pathname]);
     return (
         <>
             {/* ================== MAIN HEADER ---------LG ========================*/}
@@ -21,8 +24,8 @@ export function Header() {
                 <NavAccount isLogIn={isLogIn} cls_name="hidden lg:flex" />
             </div>
             {/*===================MOBILE ====================================== */}
-            <div className={`lg:hidden flex flex-col gap-5 bg-white transition-all duration-500 ease-linear absolute 
-                overflow-hidden shadow-md w-full lg:w-1/2 pl-5 ml-auto ${expand ? "max-h-[900px]" : "max-h-0 z-99"}`}>
+            <div className={`lg:hidden flex flex-col gap-5 bg-white transition-all duration-500 ease-linear
+                overflow-hidden shadow-md w-full lg:w-1/2 pl-5 ml-auto ${expand ? "max-h-[900px] z-99" : "max-h-0"}`}>
                 <NavLink navLinks={navLinks} cls_name="lg:hidden flex flex-col gap-3 mt-5" />
                 <NavActions actions={list_action} cls_name="lg:hidden flex flex gap-5 mx-auto" />
                 <div className="flex justify-center mb-5">
@@ -54,7 +57,7 @@ function NavLink({ navLinks, cls_name = "" }) {
 function NavItem({ nav_item, location }) {
     return (
         <li className={`text-[16px] text-gray-400 font-medium relative group hover:text-mainCL transition-colors duration-300 ease-linear ${location.pathname === `/${nav_item.content}` && "text-mainCL"}`}>
-            <Link to={"/" + nav_item.content} >
+            <Link to={"/" + nav_item.content}>
                 {nav_item.content}
             </Link >
             <span className=" hidden lg:block absolute  h-0.5 bg-mainCL translate-y-3 w-0 group-hover:w-full group-hover:-translate-x-[0%] z-10 bottom-0 left-0 translate-x-[50%] transition-all ease-linear duration-400">

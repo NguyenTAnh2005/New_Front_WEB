@@ -13,10 +13,11 @@ import { ContactsPage } from './pages/Contacts/contacts.jsx'
 import { DealsPage } from './pages/Deals/deals.jsx'
 import { LogIn } from './components/login_signup_forgotpass/login.jsx'
 import { SignUp } from './components/login_signup_forgotpass/signup.jsx'
+import { ForgotPassword } from './components/login_signup_forgotpass/forgotpassword.jsx'
 
 function AppContent() {
   const location = useLocation();
-  const hideHeaderFooter = ["/login", "/signup", "/forgot-pass"].includes(location.pathname);
+  const hideHeaderFooter = ["/login", "/signup", "/forgot-password"].includes(location.pathname);
   return (
     <>
       {!hideHeaderFooter && <Header />}
@@ -29,6 +30,7 @@ function AppContent() {
         <Route path='/Contact' element={<ContactsPage />} />
         <Route path='/login' element={<LogIn />} />
         <Route path='/signup' element={<SignUp />} />
+        <Route path='/forgot-password' element={<ForgotPassword />} />
       </Routes>
       {!hideHeaderFooter && <Footer />}
     </>
