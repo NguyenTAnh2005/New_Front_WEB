@@ -1,6 +1,6 @@
 import { Input } from "./input"
-import { useEffect, useRef, useState } from "react"
-import { Link, useNavigate } from "react-router-dom";
+import { useState } from "react"
+import { useNavigate, Link } from "react-router-dom";
 export function ForgotPassword() {
     const [showModal, setShowModal] = useState(false);
     const navigate = useNavigate();
@@ -12,10 +12,10 @@ export function ForgotPassword() {
 
 
     return (
-        <div className="flex items-center animate__animated animate__fadeIn">
-            <div method="post" className="w-full text-gray-500 max-w-[350px] px-5 py-5 my-10 rounded-xl border-gray-300 border-[1px] mx-auto bg-white">
+        <div className="h-screen flex items-center animate__animated animate__fadeIn">
+            <div method="post" className="w-full text-gray-500 max-w-[350px] rounded-xl p-10 border-gray-300 border-[1px] mx-auto bg-white">
                 <div className="text-center mb-5">
-                    <p className="text-[28px] font-bold text-black">Having Trouble Log In?</p>
+                    <p className="text-[24px] font-bold text-black">Having Trouble Log In?</p>
                     <p>No worries, let’s reset your password.</p>
                 </div>
                 <Input id_input={"fp_ip1"} type={"email"} label_content={"email"} cls_icon={"bi bi-envelope"} />
@@ -25,6 +25,12 @@ export function ForgotPassword() {
                     className="mt-2 bg-mainCL w-full text-white text-[18px] font-semibold rounded-lg">
                     Send
                 </button>
+                <div className="text-xs mt-4 text-mainCL">
+                    <Link to="/login" >
+                        <i className="bi bi-arrow-left me-1"></i>
+                        Back to Log In
+                    </Link>
+                </div>
             </div>
             {
                 showModal && (
