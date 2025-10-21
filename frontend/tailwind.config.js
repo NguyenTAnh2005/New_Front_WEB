@@ -1,4 +1,12 @@
 module.exports = {
+  safelist: [
+    'text-xs',
+    'text-sm',
+    'text-base',
+    'text-lg',
+    'text-xl',
+    'text-2xl',
+  ],
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}"

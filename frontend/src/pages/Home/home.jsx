@@ -31,7 +31,7 @@ export function HomePage() {
         loadAllData();
     }, []);
     const copy_products = products.map(p => {
-        return <ProductCard key={p.id + p.version} product={p} baselink={base_link} max_width="250px" />
+        return <ProductCard key={p.id + p.version} product={p} baselink={base_link} max_width="350px" fs_title="2xl" fs_desc="sm" fs_text="lg" />
     });
 
     const copy_articles = articles.map(a => {

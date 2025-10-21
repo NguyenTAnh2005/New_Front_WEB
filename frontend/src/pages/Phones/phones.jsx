@@ -6,7 +6,7 @@ import { ProductCard } from "../../components/product_card";
 export function PhonesPage() {
     const [arrPhones, setArrPhones] = useState([]);
     const [keySearch, setKeySearch] = useState("");
-    const [expand, setExpand] = useState(true);
+    const [expand, setExpand] = useState(false);
     function changeModeExpand() {
         setExpand((prev) => !prev);
     }
@@ -22,15 +22,23 @@ export function PhonesPage() {
 
 
     return (
-        <div className="my-5 flex relative">
-            <div className={`transition-all ease-out duration-500 ${expand ? "min-w-[320px] max-w-[320px] " : "min-w-0 max-w-0"} px-2 `}>
-                <Filter expand={expand} changeModeExpand={changeModeExpand} />
+        <div className="py-5 flex relative">
+
+            <div className={`grid gap-4 px-5 grid-cols-1 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 z-0 sm:grid-cols-2 w-[90%] mx-auto`}>
+                <List_Phones keySearch={keySearch} products={arrPhones} base_link={base_link} hover_out={false} />
+            </div>
+            {/* ============================ PHẦN MÀN ĐEN CHE NỘI DUNG KHI MỞ FILTER VÀ NGĂN KO CHO CLICK BÊN NGOÀI FILTER */}
+            <div className={`absolute bg-black w-full top-0 left-0 h-[100%] 
+                 ${!expand ? "opacity-0 pointer-events-none" : "opacity-40 pointer-events-auto "}`}>
 
             </div>
-            <div className={`flex-grow-1`}>
-                <div className={`grid gap-4 px-5 ${expand ? "sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" : "lg:grid-cols-6"}`}>
-                    <List_Phones keySearch={keySearch} products={arrPhones} base_link={base_link} />
-                </div>
+            <div className={`absolute w-auto 
+                ${!expand ? "pointer-events-none" : "pointer-events-auto "}`}>
+                <Filter expand={expand} changeModeExpand={changeModeExpand} />
+            </div>
+            <div className={`bg-white text-mainCL text-xl p-0 py-1 px-2 z-10 rounded-full fixed top-25 left-5
+                transition-all ease-in-out duration-500 ${expand ? " opacity-0 -translate-x-full " : "opacity-100 translate-x-0 "}`}>
+                <i className="bi bi-funnel-fill" onClick={changeModeExpand}></i>
             </div>
         </div>
     )
@@ -41,7 +49,7 @@ function Filter({ expand, changeModeExpand }) {
 
     return (
         <>
-            <div className={`w-full transition-all ease-in-out duration-500 ${expand ? "opacity-100" : "opacity-0"}`}>
+            <div className={`w-full transition-all ease-in-out duration-500 ${expand ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-full"}`}>
                 <div className="flex justify-between bg-mainCL text-white w-full px-2 text-[20px] font-semibold items-center rounded-t-md">
                     <i className="bi bi-funnel"></i>
                     <span className="text-[24px] font-semibold">Filter</span>
@@ -74,10 +82,8 @@ function Filter({ expand, changeModeExpand }) {
                     <button type="button" className="mt-5 mb-10 bg-mainCL text-white text-[20px] py-1 w-[90%] mx-auto rounded-md">
                         <span>Filter</span>
                     </button>
+
                 </div>
-            </div>
-            <div className={`bg-white text-mainCL text-[20px] p-0 py-1 px-2 z-10 rounded-full transition-all ease-in-out duration-500 ${expand ? " opacity-0 -translate-x-full" : "opacity-100 translate-x-0"} absolute top-0`}>
-                <i className="bi bi-funnel-fill" onClick={changeModeExpand}></i>
             </div>
         </>
     )
@@ -110,11 +116,11 @@ function FilterPart({ title, arr, cls_icon }) {
     });
     return (
         <>
-            <span className="text-[20px] ml-2 font-semibold flex items-center gap-2 text-mainCL">
-                <i className={cls_icon + " text-[18px]"}></i>
+            <span className="text-xl ml-2 font-semibold flex items-center gap-2 text-mainCL">
+                <i className={cls_icon + " text-lg"}></i>
                 {title}
             </span>
-            <div className="grid lg:grid-cols-2">
+            <div className="grid lg:grid-cols-3">
                 {copy_arr}
             </div>
         </>
@@ -149,7 +155,7 @@ function List_Phones({ products, keySearch, base_link }) {
         if (key && !product.name.trim().toLowerCase().includes(key)) {
             continue;
         }
-        data.push(<ProductCard baselink={base_link} product={product} key={`${product.name}-${product.version}`} hover_out={false} width={"300px"} fs_title={"15px"} fs_text={"12px"} fs_desc={"10px"} />)
+        data.push(<ProductCard baselink={base_link} product={product} key={`${product.name}-${product.version}`} hover_out={false} max_width={"200px"} fs_title={"lg"} fs_text={"sm"} fs_desc={"xs"} />)
     }
     return data;
 }

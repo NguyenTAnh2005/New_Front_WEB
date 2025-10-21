@@ -14,6 +14,7 @@ import { DealsPage } from './pages/Deals/deals.jsx'
 import { LogIn } from './components/login_signup_forgotpass/login.jsx'
 import { SignUp } from './components/login_signup_forgotpass/signup.jsx'
 import { ForgotPassword } from './components/login_signup_forgotpass/forgotpassword.jsx'
+import { Product_Details } from './pages/Product_Details/Product_Details.jsx'
 
 function AppContent() {
   const location = useLocation();
@@ -31,6 +32,7 @@ function AppContent() {
         <Route path='/login' element={<LogIn />} />
         <Route path='/signup' element={<SignUp />} />
         <Route path='/forgot-password' element={<ForgotPassword />} />
+        <Route path={`/product-details`} element={<Product_Details />} />
       </Routes>
       {!hideHeaderFooter && <Footer />}
     </>
