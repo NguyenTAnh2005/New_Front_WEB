@@ -4,6 +4,7 @@ import { ArticleCard } from "../../components/article_card"
 import { Product_Deals } from "../../components/product_deals.jsx"
 import { data_product, data_article, data_service, data_sale } from "./data.js"
 import banner_img from "../../assets/chess.png"
+import { fetchJsonToListObj } from "../../utils/fetch_async_await.jsx"
 
 export function HomePage() {
     const base_link = "https://res.cloudinary.com/df5mtvzkn/image/upload/q_auto,f_auto/WEB_SELL_PHONE__PROJECT/TEST/Test_IMG/"
@@ -18,8 +19,7 @@ export function HomePage() {
                  thường để trong public và với các file public khi import path 
                  thi tự dộng cd về root sẵn nên ko cần ../ hay ./ = FROM CHAT GPT = 
                  => KO hiểu lắm => Tính năng mới (0`_o)  \(0 o 0)/ @_@*/
-
-
+                /* Lam fetc co tung list thi hoi loang ngoang, ket hop voi promise de fetch chung 1 lan tien hon - Cre Chat GPT*/
                 fetchJsonToListObj("/products.json"),
                 fetchJsonToListObj("/articles.json"),
                 fetchJsonToListObj("/deals.json")
@@ -30,16 +30,8 @@ export function HomePage() {
         }
         loadAllData();
     }, []);
-    /* Lam fetc co tung list thi hoi loang ngoang, ket hop voi promise de fetch chung 1 lan tien hon - Cre Chat GPT*/
-    // useEffect(() => {
-    //     async function fetchData() {
-    //         const data = await fetchJsonToListObj("/products.json");
-    //         setProducts(data);
-    //     }
-    //     fetchData();
-    // }, []);
     const copy_products = products.map(p => {
-        return <ProductCard key={p.id + p.version} product={p} baselink={base_link} />
+        return <ProductCard key={p.id + p.version} product={p} baselink={base_link} max_width="250px" />
     });
 
     const copy_articles = articles.map(a => {
@@ -56,7 +48,7 @@ export function HomePage() {
             <div className="flex flex-col items-center bg-white pt-5 pb-10 px-5">
                 <p className="text-black text-[40px] font-semibold capitalize mt-10 text-center">Popular Phones</p>
                 <p className="text-[20px] text-gray-600 text-center">Discover our best-selling phones</p>
-                <div className="mt-10 px-5 grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 gap-x-7 gap-y-7">
+                <div className="mt-10 px-5 grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 gap-x-4 gap-y-4">
                     {copy_products}
                 </div>
                 <button className="mt-10 capitalize text-mainCL font-semibold text-[24px] rounded-xl px-3 py-1 hover:scale-90 hover:bg-mainCL hover:-translate-y-1 hover:text-white transition-all duration-300 ease-linear"> View All Phones</button>
@@ -77,7 +69,6 @@ export function HomePage() {
                 </div>
                 <button className="mt-10 capitalize text-mainCL font-semibold text-[24px] rounded-xl px-3 py-1 hover:scale-90 hover:bg-mainCL hover:-translate-y-1 hover:text-white transition-all duration-300 ease-linear"> View All Article</button>
             </div>
-
         </div>
     )
 }
@@ -111,15 +102,4 @@ function Service_Item({ service }) {
     )
 }
 
-async function fetchJsonToListObj(src_fetch) {
-    try {
-        const response = await fetch(src_fetch);
-        !response.ok && { throw: new Error("Loading") }
-        const data = await response.json();
-        return data;
-    }
-    catch (error) {
-        console.error("Loi Fetch DL:" + error);
-        return [];
-    }
-}
+

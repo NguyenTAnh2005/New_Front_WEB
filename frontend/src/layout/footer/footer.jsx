@@ -31,9 +31,9 @@ function Present() {
                 Điểm đến đáng tin cậy cho điện thoại thông minh của bạn. Sản phẩm chất lượng, giá cả hợp lý và luôn đặt khách hàng lên hàng đầu.
             </p>
             <ul className="list-none flex text-2xl gap-3 mt-5">
-                <Hotline_item link="https://www.facebook.com/share/16gujfbgwE/" cls_icon="ri-facebook-circle-fill" />
-                <Hotline_item link="https://youtube.com/@n_t_anh?si=-9eMmF6Scpz04ukz" cls_icon="ri-youtube-fill" />
-                <Hotline_item link="" cls_icon="ri-instagram-fill" />
+                <Hotline_item link="https://www.facebook.com/share/16gujfbgwE/" cls_icon="bi bi-facebook" />
+                <Hotline_item link="https://youtube.com/@n_t_anh?si=-9eMmF6Scpz04ukz" cls_icon="bi bi-youtube" />
+                <Hotline_item link="" cls_icon="bi bi-instagram" />
             </ul>
         </div>
     )

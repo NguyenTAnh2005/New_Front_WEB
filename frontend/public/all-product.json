@@ -1,0 +1,182 @@
+[
+    {
+        "id": "ph_1",
+        "version": "1",
+        "name": "FauxPhone 20 Pro (Tiêu chuẩn - 1 GB RAM)",
+        "desc": "6.7 inch | Chip Helio XYZ",
+        "org_price": "10.457",
+        "new_price": "8.888",
+        "img_link": "eg_phone",
+        "discount": "15%"
+    },
+    {
+        "id": "ph_1",
+        "version": "2",
+        "name": "FauxPhone 20 Pro (Phiên bản Pro - 2 GB RAM)",
+        "desc": "8.1 inch | Chip Snapdragon Elite Pro",
+        "org_price": "13.628",
+        "new_price": "5.680",
+        "img_link": "eg_phone",
+        "discount": "58%"
+    },
+    {
+        "id": "ph_2",
+        "version": "1",
+        "name": "FauxPhone 20 Pro (Tiêu chuẩn - 2 GB RAM)",
+        "desc": "6.7 inch | Chip Helio XYZ",
+        "org_price": "13.911",
+        "new_price": "8.347",
+        "img_link": "eg_phone",
+        "discount": "40%"
+    },
+    {
+        "id": "ph_2",
+        "version": "2",
+        "name": "FauxPhone 20 Pro (Phiên bản Pro - 4 GB RAM)",
+        "desc": "8.1 inch | Chip Snapdragon Gen 4",
+        "org_price": "13.754",
+        "new_price": "8.940",
+        "img_link": "eg_phone",
+        "discount": "35%"
+    },
+    {
+        "id": "ph_3",
+        "version": "1",
+        "name": "FauxPhone 20 Pro (Tiêu chuẩn - 3 GB RAM)",
+        "desc": "6.7 inch | Chip Helio XYZ",
+        "org_price": "12.016",
+        "new_price": "5.167",
+        "img_link": "eg_phone",
+        "discount": "57%"
+    },
+    {
+        "id": "ph_3",
+        "version": "2",
+        "name": "FauxPhone 20 Pro (Phiên bản Pro - 6 GB RAM)",
+        "desc": "8.1 inch | Chip Snapdragon Elite Pro",
+        "org_price": "13.315",
+        "new_price": "10.252",
+        "img_link": "eg_phone",
+        "discount": "23%"
+    },
+    {
+        "id": "ph_4",
+        "version": "1",
+        "name": "FauxPhone 20 Pro (Tiêu chuẩn - 4 GB RAM)",
+        "desc": "6.7 inch | Chip Helio XYZ",
+        "org_price": "10.155",
+        "new_price": "5.382",
+        "img_link": "eg_phone",
+        "discount": "47%"
+    },
+    {
+        "id": "ph_4",
+        "version": "2",
+        "name": "FauxPhone 20 Pro (Phiên bản Pro - 8 GB RAM)",
+        "desc": "8.1 inch | Chip Snapdragon Gen 4",
+        "org_price": "14.225",
+        "new_price": "12.798",
+        "img_link": "eg_phone",
+        "discount": "10%"
+    },
+    {
+        "id": "ph_5",
+        "version": "1",
+        "name": "FauxPhone 20 Pro (Tiêu chuẩn - 5 GB RAM)",
+        "desc": "6.7 inch | Chip Helio XYZ",
+        "org_price": "11.196",
+        "new_price": "5.710",
+        "img_link": "eg_phone",
+        "discount": "49%"
+    },
+    {
+        "id": "ph_5",
+        "version": "2",
+        "name": "FauxPhone 20 Pro (Phiên bản Pro - 10 GB RAM)",
+        "desc": "8.1 inch | Chip Snapdragon Elite Pro",
+        "org_price": "9.962",
+        "new_price": "8.767",
+        "img_link": "eg_phone",
+        "discount": "12%"
+    },
+    {
+        "id": "ph_6",
+        "version": "1",
+        "name": "FauxPhone 20 Pro (Tiêu chuẩn - 6 GB RAM)",
+        "desc": "6.7 inch | Chip Helio XYZ",
+        "org_price": "10.435",
+        "new_price": "8.243",
+        "img_link": "eg_phone",
+        "discount": "21%"
+    },
+    {
+        "id": "ph_6",
+        "version": "2",
+        "name": "FauxPhone 20 Pro (Phiên bản Pro - 12 GB RAM)",
+        "desc": "8.1 inch | Chip Snapdragon Gen 4",
+        "org_price": "12.012",
+        "new_price": "8.528",
+        "img_link": "eg_phone",
+        "discount": "29%"
+    },
+    {
+        "id": "ph_7",
+        "version": "1",
+        "name": "FauxPhone 20 Pro (Tiêu chuẩn - 7 GB RAM)",
+        "desc": "6.7 inch | Chip Helio XYZ",
+        "org_price": "11.233",
+        "new_price": "7.301",
+        "img_link": "eg_phone",
+        "discount": "35%"
+    },
+    {
+        "id": "ph_7",
+        "version": "2",
+        "name": "FauxPhone 20 Pro (Phiên bản Pro - 14 GB RAM)",
+        "desc": "8.1 inch | Chip Snapdragon Elite Pro",
+        "org_price": "10.126",
+        "new_price": "4.962",
+        "img_link": "eg_phone",
+        "discount": "51%"
+    },
+    {
+        "id": "ph_8",
+        "version": "1",
+        "name": "FauxPhone 20 Pro (Tiêu chuẩn - 8 GB RAM)",
+        "desc": "6.7 inch | Chip Helio XYZ",
+        "org_price": "13.067",
+        "new_price": "5.619",
+        "img_link": "eg_phone",
+        "discount": "57%"
+    },
+    {
+        "id": "ph_8",
+        "version": "2",
+        "name": "FauxPhone 20 Pro (Phiên bản Pro - 16 GB RAM)",
+        "desc": "8.1 inch | Chip Snapdragon Gen 4",
+        "org_price": "10.370",
+        "new_price": "4.667",
+        "img_link": "eg_phone",
+        "discount": "55%"
+    },
+    {
+        "id": "ph_9",
+        "version": "1",
+        "name": "FauxPhone 20 Pro (Tiêu chuẩn - 9 GB RAM)",
+        "desc": "6.7 inch | Chip Helio XYZ",
+        "org_price": "11.026",
+        "new_price": "9.923",
+        "img_link": "eg_phone",
+        "discount": "10%"
+    },
+    {
+        "id": "ph_9",
+        "version": "2",
+        "name": "FauxPhone 20 Pro (Phiên bản Pro - 18 GB RAM)",
+        "desc": "8.1 inch | Chip Snapdragon Elite Pro",
+        "org_price": "14.364",
+        "new_price": "8.618",
+        "img_link": "eg_phone",
+        "discount": "40%"
+    }
+]
