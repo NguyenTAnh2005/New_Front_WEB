@@ -5,6 +5,7 @@ import { ProductCard } from "../../components/product_card";
 
 export function PhonesPage() {
     const [arrPhones, setArrPhones] = useState([]);
+    const [valueInput, setValueInput] = useState("");
     const [keySearch, setKeySearch] = useState("");
     const [expand, setExpand] = useState(false);
     function changeModeExpand() {
@@ -14,37 +15,58 @@ export function PhonesPage() {
 
     useEffect(() => {
         async function fetchData() {
-            const response = await fetchJsonToListObj("/all-product.json");
-            setArrPhones(response);
+            try {
+                const response = await fetchJsonToListObj("/all-product.json");
+                setArrPhones(response);
+            }
+            catch (error) { console.error("Error fetching data:", error); }
         }
         fetchData();
     }, []);
 
 
     return (
-        <div className="py-5 flex relative">
-
-            <div className={`grid gap-4 px-5 grid-cols-1 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 z-0 sm:grid-cols-2 w-[90%] mx-auto`}>
-                <List_Phones keySearch={keySearch} products={arrPhones} base_link={base_link} hover_out={false} />
-            </div>
+        <div className="py-5 flex flex-col relative">
             {/* ============================ PHẦN MÀN ĐEN CHE NỘI DUNG KHI MỞ FILTER VÀ NGĂN KO CHO CLICK BÊN NGOÀI FILTER */}
             <div className={`absolute bg-black w-full top-0 left-0 h-[100%] 
                  ${!expand ? "opacity-0 pointer-events-none" : "opacity-40 pointer-events-auto "}`}>
 
             </div>
+            { /*==============================Phần filter  */}
             <div className={`absolute w-auto 
                 ${!expand ? "pointer-events-none" : "pointer-events-auto "}`}>
                 <Filter expand={expand} changeModeExpand={changeModeExpand} />
             </div>
+            {/* ============================ PHẦN ICON BỘ LỌC  */}
             <div className={`bg-white text-mainCL text-xl p-0 py-1 px-2 z-10 rounded-full fixed top-25 left-5
                 transition-all ease-in-out duration-500 ${expand ? " opacity-0 -translate-x-full " : "opacity-100 translate-x-0 "}`}>
                 <i className="bi bi-funnel-fill" onClick={changeModeExpand}></i>
             </div>
+            {/* ============================ PHẦN SEARCH BAR  */}
+            <SearchBar setKeySearch={setKeySearch} valueInput={valueInput} setValueInput={setValueInput} />
+            {/* ============================ PHẦN LIST PHONES  */}
+            <div className={`grid gap-4 px-5 grid-cols-1 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 z-0 sm:grid-cols-2 w-[90%] mx-auto`}>
+                <List_Phones keySearch={keySearch} products={arrPhones} base_link={base_link} hover_out={false} />
+            </div>
         </div>
     )
 }
+// ============================= Phan Load DS
+function List_Phones({ products, keySearch, base_link }) {
 
+    const data = [];
+    const key = (keySearch || "").trim().toLowerCase();
+    // (keySearch || "") đảm bảo không gây lỗi undentified khi người dùng ko nhập j cả
+    for (const product of products) {
+        if (key && !product.name.trim().toLowerCase().includes(key)) {
+            continue;
+        }
+        data.push(<ProductCard baselink={base_link} product={product} key={`${product.name}-${product.version}`} hover_out={false} max_width={"200px"} fs_title={"lg"} fs_text={"sm"} fs_desc={"xs"} />)
+    }
+    return data;
+}
 // ============================= PHẦN FILTER
+//---------------------------- FILTER
 function Filter({ expand, changeModeExpand }) {
 
     return (
@@ -88,6 +110,7 @@ function Filter({ expand, changeModeExpand }) {
         </>
     )
 }
+//---------------------------- CHECKBOX CỦA FILTER
 function CheckBoxValueOfFilter({ id_input, content }) {
     const [clicked, setClicked] = useState(false);
     function changeModeInput() {
@@ -109,7 +132,7 @@ function CheckBoxValueOfFilter({ id_input, content }) {
         </div>
     )
 }
-
+//---------------------------- PHẦN Nhóm các input cùng loại
 function FilterPart({ title, arr, cls_icon }) {
     const copy_arr = arr.map(ip => {
         return <CheckBoxValueOfFilter id_input={ip.id} content={ip.content} key={ip.id} />
@@ -126,7 +149,7 @@ function FilterPart({ title, arr, cls_icon }) {
         </>
     )
 }
-
+//---------------------------- PHẦN Nhóm các input cùng loại PRICE
 function FilterPartPrice({ title, arr, cls_icon }) {
     const copy_arr = arr.map(ip => {
         return <CheckBoxValueOfFilter id_input={ip.id} content={ip.content} key={ip.id} />
@@ -144,20 +167,21 @@ function FilterPartPrice({ title, arr, cls_icon }) {
     )
 }
 
-// ============================= Phan Load DS
-function List_Phones({ products, keySearch, base_link }) {
-
-    const data = [];
-    const key = (keySearch || "").trim().toLowerCase();
-    // (keySearch || "") đảm bảo không gây lỗi undentified khi người dùng ko nhập j cả
-    for (const product of products) {
-        console.log(product.id);
-        if (key && !product.name.trim().toLowerCase().includes(key)) {
-            continue;
-        }
-        data.push(<ProductCard baselink={base_link} product={product} key={`${product.name}-${product.version}`} hover_out={false} max_width={"200px"} fs_title={"lg"} fs_text={"sm"} fs_desc={"xs"} />)
-    }
-    return data;
-}
 //============================== PHẦN SHOW PAGINATION
 //============================== PHẦN SHOW THANH TÌM KIÉM
+function SearchBar({ valueInput, setValueInput, setKeySearch }) {
+    function handleInputChange(e) {
+        setValueInput(e.target.value);
+    }
+    function handleSreach() {
+        setKeySearch(valueInput);
+    }
+    return (
+        <div className="w-full flex justify-center my-5">
+            <input type="text" className="w-[50%] px-5 rounded-l-md py-2 outline-none" placeholder="Seach Phone....." value={valueInput} onChange={handleInputChange} />
+            <button type="button" onClick={handleSreach}>
+                <i className="bi bi-search py-2 bg-mainCL text-white px-3 rounded-r-md"></i>
+            </button>
+        </div>
+    )
+}
