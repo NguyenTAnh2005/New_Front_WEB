@@ -1,62 +1,113 @@
     [
         {
-            "id": "ph_1",
-            "version": "1",
-            "name": "Iphone 14 Pro Max",
-            "desc": "6.75 inch | Dimensity 1200 Ultra",
-            "org_price": "9499000",
-            "new_price": "4599000",
-            "img_link": "eg_phone",
-            "discount": "40%"
+            "product_id": "ph_1",
+            "phone_name": "Iphone X",
+            "phone_release_year": "2020",
+            "phone_chip": "Apple A11 Bionic",
+            "phone_screen_size": "5.8 inch OLED",
+            "phone_front_cam": "7MP",
+            "phone_behind_cam": "12MP + 12MP",
+            "phone_battery": 2716,
+            "phone_system": "iOS 16",
+            "phone_charging_port": "Lightning",
+            "phone_sim_card": 1,
+            "phone_nfc": true,
+            "phone_ear_phone": "Lightning EarPods",
+            "phone_memory_card": false,
+            "phone_desc": "iPhone 10 với thiết kế tai thỏ đột phá, màn hình OLED.",
+            "variants": [
+                {
+                    "variant_id": "v1",
+                    "variant_ph_ram": 3,
+                    "variant_ph_rom": 64,
+                    "variant_ph_color": "White",
+                    "variant_ph_org_price": 26000000,
+                    "variant_ph_new_price": 16600000,
+                    "variant_img": "eg_phone"
+                },
+                {
+                    "variant_id": "v2",
+                    "variant_ph_ram": 3,
+                    "variant_ph_rom": 64,
+                    "variant_ph_color": "Black",
+                    "variant_ph_org_price": 26000000,
+                    "variant_ph_new_price": 16600000,
+                    "variant_img": "eg_phone"
+                }
+            ]
         },
         {
-            "id": "ph_1",
-            "version": "2",
-            "name": "Iphone 14 Pro Max",
-            "desc": "6.75 inch | Dimensity 1200 Ultra",
-            "org_price": "9499000",
-            "new_price": "4599000",
-            "img_link": "eg_phone",
-            "discount": "40%"
+            "product_id": "ph_2",
+            "phone_name": "Iphone XS",
+            "phone_release_year": "2020",
+            "phone_chip": "Apple A12 Bionic",
+            "phone_screen_size": "5.8 inch OLED Super Retina HD",
+            "phone_front_cam": "7MP",
+            "phone_behind_cam": "12MP + 12MP",
+            "phone_battery": 2658,
+            "phone_system": "iOS 16",
+            "phone_charging_port": "Lightning",
+            "phone_sim_card": 1,
+            "phone_nfc": true,
+            "phone_ear_phone": "Lightning EarPods",
+            "phone_memory_card": false,
+            "phone_desc": "iPhone XS màn hình Super Retina, hiệu năng mạnh mẽ.",
+            "variants": [
+                {
+                    "variant_id": "v1",
+                    "variant_ph_ram": 4,
+                    "variant_ph_rom": 64,
+                    "variant_ph_color": "Silver",
+                    "variant_ph_org_price": 26000000,
+                    "variant_ph_new_price": 16600000,
+                    "variant_img": "eg_phone"
+                },
+                {
+                    "variant_id": "v2",
+                    "variant_ph_ram": 4,
+                    "variant_ph_rom": 128,
+                    "variant_ph_color": "Gold",
+                    "variant_ph_org_price": 26000000,
+                    "variant_ph_new_price": 16600000,
+                    "variant_img": "eg_phone"
+                }
+            ]
         },
         {
-            "id": "ph_2",
-            "version": "1",
-            "name": "Iphone 14 Pro Max",
-            "desc": "6.75 inch | Dimensity 1200 Ultra",
-            "org_price": "9499000",
-            "new_price": "4599000",
-            "img_link": "eg_phone",
-            "discount": "40%"
-        },
-        {
-            "id": "ph_2",
-            "version": "2",
-            "name": "Iphone 14 Pro Max",
-            "desc": "6.75 inch | Dimensity 1200 Ultra",
-            "org_price": "9499000",
-            "new_price": "4599000",
-            "img_link": "eg_phone",
-            "discount": "40%"
-        },
-        {
-            "id": "ph_2",
-            "version": "3",
-            "name": "Iphone 14 Pro Max",
-            "desc": "6.75 inch | Dimensity 1200 Ultra",
-            "org_price": "9499000",
-            "new_price": "4599000",
-            "img_link": "eg_phone",
-            "discount": "40%"
-        },
-        {
-            "id": "ph_3",
-            "version": "1",
-            "name": "Iphone 14 Pro Max",
-            "desc": "6.75 inch | Dimensity 1200 Ultra",
-            "org_price": "9499000",
-            "new_price": "4599000",
-            "img_link": "eg_phone",
-            "discount": "40%"
+            "product_id": "ph_3",
+            "phone_name": "Iphone XS Max",
+            "phone_release_year": "2020",
+            "phone_chip": "Apple A12 Bionic",
+            "phone_screen_size": "6.5 inch OLED Super Retina HD",
+            "phone_front_cam": "7MP",
+            "phone_behind_cam": "12MP + 12MP",
+            "phone_battery": 3174,
+            "phone_system": "iOS 16",
+            "phone_charging_port": "Lightning",
+            "phone_sim_card": 1,
+            "phone_nfc": true,
+            "phone_ear_phone": "Lightning EarPods",
+            "phone_memory_card": false,
+            "phone_desc": "iPhone XS Max: Màn hình lớn nhất từng có, hiệu năng tối ưu.",
+            "variants": [
+                {
+                    "variant_id": "v1",
+                    "variant_ph_ram": 4,
+                    "variant_ph_rom": 128,
+                    "variant_ph_color": "Black",
+                    "variant_ph_org_price": 26000000,
+                    "variant_ph_new_price": 16600000,
+                    "variant_img": "eg_phone"
+                },
+                {
+                    "variant_id": "v2",
+                    "variant_ph_ram": 4,
+                    "variant_ph_rom": 256,
+                    "variant_ph_color": "Green",
+                    "variant_ph_org_price": 26000000,
+                    "variant_ph_new_price": 16600000,
+                    "variant_img": "eg_phone"
+                }
+            ]
         }
     ]

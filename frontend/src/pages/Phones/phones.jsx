@@ -3,6 +3,7 @@ import { arr1_company, arr2_ram, arr3_rom, arr4_os, arr5_chip, arr_6_support, ar
 import { fetchJsonToListObj } from "../../utils/fetch_async_await";
 import { ProductCard } from "../../components/product_card";
 import { scrollToTopSmooth } from "../../utils/scroll_top_smooth";
+import { flatArrObjPhone } from "../../utils/flat_arr_obj_phone.jsx";
 
 export function PhonesPage() {
     const [arrPhones, setArrPhones] = useState([]);
@@ -39,7 +40,7 @@ export function PhonesPage() {
     useEffect(() => {
         async function fetchData() {
             try {
-                const response = await fetchJsonToListObj("/all-product.json");
+                const response = await flatArrObjPhone("/all-product.json");
                 setArrPhones(response);
             }
             catch (error) { console.error("Error fetching data:", error); }
@@ -69,7 +70,7 @@ export function PhonesPage() {
     const currentProducts = filteredProducts.slice(startPdt, endPdt);
 
     return (
-        <div className="py-5 flex flex-col relative">
+        <div className="py-5 flex flex-col relative animate__animated animate__fadeIn">
             {/* ============================ PHẦN SEARCH BAR  */}
             <div className="flex flex-col  gap-0 lg:flex-row lg:gap-5 justify-center w-full items-center mb-3 ">
                 <SearchBar setKeySearch={setKeySearch} valueInput={valueInput} setValueInput={setValueInput} setCurrentPage={setCurrentPage} />
@@ -202,7 +203,7 @@ function FilterPart({ title, arr, cls_icon }) {
 //---------------------------- PHẦN Nhóm các input cùng loại PRICE
 function FilterPartPrice({ title, arr, cls_icon }) {
     const copy_arr = arr.map(ip => {
-        return <CheckBoxValueOfFilter id_input={ip.id} content={ip.content} key={ip.id} />
+        (<CheckBoxValueOfFilter id_input={ip.id} content={ip.content} key={ip.id} />)
     });
     return (
         <>
@@ -244,7 +245,7 @@ function Pagination({ current_page, controlFunction }) {
         </div>
     )
 }
-
+//============================== PHẦN CELL PAGINATION
 function Cell({ index_page }) {
     return (
         <div
@@ -254,6 +255,7 @@ function Cell({ index_page }) {
         </div>
     )
 }
+//============================== PHẦN CELL CONTROL PAGINATION
 function CellControl({ control, controlFunction }) {
     return (
         <div
@@ -264,7 +266,7 @@ function CellControl({ control, controlFunction }) {
         </div>
     )
 }
-
+//============================== PHẦN SORT PRICE
 function ModeSortPrice({ sortMode, setSortMode }) {
     const [openOption, setOpenOption] = useState(false);
     function handleChangeModeSelect() {
@@ -272,9 +274,9 @@ function ModeSortPrice({ sortMode, setSortMode }) {
     }
     return (
         <div>
-            <div className="text-mainCL flex bg-white border justify-between border-gray-300 px-3 py-2 cursor-pointer gap-20">
+            <div className="text-mainCL flex bg-white border justify-between border-gray-300 px-3 py-2 cursor-pointer gap-20" onClick={handleChangeModeSelect}>
                 <span>{sortMode}</span>
-                <i className={`bi bi-caret-down-fill transition-transform duration-500 ease-in-out ${openOption ? "rotate-180" : "rotate-0"}`} onClick={handleChangeModeSelect}></i>
+                <i className={`bi bi-caret-down-fill transition-transform duration-500 ease-in-out ${openOption ? "rotate-180" : "rotate-0"}`} ></i>
             </div>
             {openOption && (
                 <div className="w-auto relative">
@@ -289,14 +291,18 @@ function ModeSortPrice({ sortMode, setSortMode }) {
         </div>
     )
 }
+//============================== PHẦN OPTION SORT PRICE
 function ModeOption({ content, setSortMode, closeSelect }) {
     function handleSelect() {
         setSortMode(content);
         closeSelect();
     }
     return (
-        <div className="text-mainCL bg-white border border-gray-300 px-2 py-1 cursor-pointer hover:bg-gray-200">
-            <span onClick={handleSelect}>{content}</span>
+        <div className="text-mainCL bg-white border border-gray-300 px-2 py-1 cursor-pointer hover:bg-gray-200" onClick={handleSelect}>
+            <span>{content}</span>
         </div>
     )
 }
+
+//=============================== Ham loc Sp theo gia tri checkbox
+
