@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react"
 import { arr1_company, arr2_ram, arr3_rom, arr4_os, arr5_chip, arr_6_support, arr_7_price } from "./data";
-import { fetchJsonToListObj } from "../../utils/fetch_async_await";
 import { ProductCard } from "../../components/product_card";
 import { scrollToTopSmooth } from "../../utils/scroll_top_smooth";
 import { flatArrObjPhone } from "../../utils/flat_arr_obj_phone.jsx";
@@ -53,15 +52,15 @@ export function PhonesPage() {
     const filteredProducts = arrPhones.filter(product => {
         if (!keySearch) return true;
         const key = keySearch.trim().toLowerCase();
-        const productName = product.name.trim().toLowerCase();
+        const productName = product.phone_name.trim().toLowerCase();
         return productName.includes(key);
     });
     //Sort sản phẩm
     if (sortMode === "Asc") {
-        filteredProducts.sort((a, b) => a.new_price - b.new_price);
+        filteredProducts.sort((a, b) => a.variant_ph_new_price - b.variant_ph_new_price);
     }
     else if (sortMode === "Desc") {
-        filteredProducts.sort((a, b) => b.new_price - a.new_price);
+        filteredProducts.sort((a, b) => b.variant_ph_new_price - a.variant_ph_new_price);
     }
     // Tính toán phân trang sau khi đã lọc
     const maxPage = Math.ceil(filteredProducts.length / itemsPerPage);
@@ -97,7 +96,7 @@ export function PhonesPage() {
             </div>
             {/* ============================ PHẦN PAGINATION  */}
             <div className="mt-10">
-                <Pagination current_page={currentPage} max_page={maxPage} controlFunction={handleControlCurrentPage} />
+                <Pagination current_page={currentPage} setCurrentPage={setCurrentPage} max_page={maxPage} controlFunction={handleControlCurrentPage} />
             </div>
         </div>
     )
@@ -105,7 +104,7 @@ export function PhonesPage() {
 // ============================= Phan Load DS
 function List_Phones({ allproducts, base_link, valueInput }) {
     const data = allproducts.map(product => (
-        <ProductCard baselink={base_link} product={product} key={`${product.name}-${product.version}`} hover_out={false}
+        <ProductCard baselink={base_link} product={product} key={product.variant_key} hover_out={false}
             max_width={"200px"} fs_title={"base"} fs_text={"sm"} fs_desc={"xs"}
         />
     ));
@@ -203,7 +202,7 @@ function FilterPart({ title, arr, cls_icon }) {
 //---------------------------- PHẦN Nhóm các input cùng loại PRICE
 function FilterPartPrice({ title, arr, cls_icon }) {
     const copy_arr = arr.map(ip => {
-        (<CheckBoxValueOfFilter id_input={ip.id} content={ip.content} key={ip.id} />)
+        return (<CheckBoxValueOfFilter id_input={ip.id} content={ip.content} key={ip.id} />)
     });
     return (
         <>
@@ -236,13 +235,32 @@ function SearchBar({ valueInput, setValueInput, setKeySearch, setCurrentPage }) 
     )
 }
 //============================== PHẦN SHOW PAGINATION
-function Pagination({ current_page, controlFunction }) {
+function Pagination({ current_page, controlFunction, setCurrentPage, max_page }) {
+    const [valuePageInput, setValuePageInput] = useState();
+    function handleClickSetValuePageInput(e) {
+        setValuePageInput(e.target.value);
+    };
+    function handleSetCurrentPage() {
+        const pageNumber = Number(valuePageInput);
+        if (pageNumber >= 1 && pageNumber <= max_page) {
+            setCurrentPage(pageNumber);
+        }
+        else { alert(`Please enter a page number between 1 and ${max_page}`); }
+    }
+
     return (
-        <div className=" w-[55%] lg:w-[30%] mx-auto flex justify-center gap-1">
-            <CellControl control={"Prev"} controlFunction={() => { controlFunction("Prev") }} />
-            <Cell index_page={"Page " + current_page} />
-            <CellControl control={"Next"} controlFunction={() => { controlFunction("Next") }} />
-        </div>
+        <>
+            <div className=" w-[55%] lg:w-[30%] mx-auto flex justify-center gap-1">
+                <CellControl control={"Prev"} controlFunction={() => { controlFunction("Prev") }} />
+                <Cell index_page={"Page " + current_page} />
+                <CellControl control={"Next"} controlFunction={() => { controlFunction("Next") }} />
+            </div>
+            <div className="mx-auto flex justify-center mt-3 items-center">
+                <span className="me-5">Go to page:</span>
+                <input type="number" className="outline-none indent-4 w-20 py-1 rounded-l-md border border-gray-400" onChange={handleClickSetValuePageInput} />
+                <button className="bg-mainCL text-white text-base px-2 py-1 rounded-r-md border border-mainCL" onClick={handleSetCurrentPage}>OK</button>
+            </div>
+        </>
     )
 }
 //============================== PHẦN CELL PAGINATION

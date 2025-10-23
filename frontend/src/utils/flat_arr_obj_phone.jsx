@@ -18,7 +18,8 @@ export async function flatArrObjPhone(path_json) {
             phone_nfc: product.phone_nfc,
             phone_ear_phone: product.phone_ear_phone,
             phone_memory_card: product.phone_memory_card,
-            phone_desc: product.phone_desc
+            phone_desc: product.phone_desc,
+            company_id: product.company_id
         }
 
         return product.variants.map(version => ({

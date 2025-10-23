@@ -22,2136 +22,556 @@
                 "variant_ph_ram": 3,
                 "variant_ph_rom": 64,
                 "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_org_price": 14920000,
+                "variant_ph_new_price": 9320000,
                 "variant_img": "eg_phone"
             },
             {
                 "variant_id": "v2",
                 "variant_ph_ram": 3,
-                "variant_ph_rom": 64,
+                "variant_ph_rom": 256,
                 "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_org_price": 17890000,
+                "variant_ph_new_price": 10590000,
                 "variant_img": "eg_phone"
             }
         ]
     },
     {
         "product_id": "ph_2",
-        "phone_name": "Iphone XS",
+        "phone_name": "Iphone 12",
         "phone_release_year": "2020",
-        "phone_chip": "Apple A12 Bionic",
-        "phone_screen_size": "5.8 inch OLED Super Retina HD",
-        "phone_front_cam": "7MP",
+        "phone_chip": "Apple A14 Bionic",
+        "phone_screen_size": "6.1 inch Super Retina XDR OLED",
+        "phone_front_cam": "12MP",
         "phone_behind_cam": "12MP + 12MP",
-        "phone_battery": 2658,
+        "phone_battery": 2815,
         "phone_system": "iOS 16",
         "phone_charging_port": "Lightning",
         "phone_sim_card": 1,
         "phone_nfc": true,
-        "phone_ear_phone": "Lightning EarPods",
+        "phone_ear_phone": "Không kèm",
         "phone_memory_card": false,
-        "phone_desc": "iPhone XS màn hình Super Retina, hiệu năng mạnh mẽ.",
+        "phone_desc": "Thiết kế vuông vức, hỗ trợ 5G, chip A14 mạnh mẽ.",
         "company_id": "company_1",
         "variants": [
             {
                 "variant_id": "v1",
                 "variant_ph_ram": 4,
                 "variant_ph_rom": 64,
-                "variant_ph_color": "Silver",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_color": "Purple",
+                "variant_ph_org_price": 20450000,
+                "variant_ph_new_price": 11550000,
                 "variant_img": "eg_phone"
             },
             {
                 "variant_id": "v2",
                 "variant_ph_ram": 4,
                 "variant_ph_rom": 128,
-                "variant_ph_color": "Gold",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_color": "Black",
+                "variant_ph_org_price": 23110000,
+                "variant_ph_new_price": 14210000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v3",
+                "variant_ph_ram": 4,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Red",
+                "variant_ph_org_price": 27350000,
+                "variant_ph_new_price": 18150000,
                 "variant_img": "eg_phone"
             }
         ]
     },
     {
         "product_id": "ph_3",
-        "phone_name": "Iphone XS Max",
-        "phone_release_year": "2020",
-        "phone_chip": "Apple A12 Bionic",
-        "phone_screen_size": "6.5 inch OLED Super Retina HD",
-        "phone_front_cam": "7MP",
-        "phone_behind_cam": "12MP + 12MP",
-        "phone_battery": 3174,
+        "phone_name": "Iphone 13 Pro Max",
+        "phone_release_year": "2021",
+        "phone_chip": "Apple A15 Bionic",
+        "phone_screen_size": "6.7 inch Super Retina XDR OLED (ProMotion 120Hz)",
+        "phone_front_cam": "12MP",
+        "phone_behind_cam": "12MP + 12MP + 12MP (LiDAR)",
+        "phone_battery": 4352,
         "phone_system": "iOS 16",
         "phone_charging_port": "Lightning",
         "phone_sim_card": 1,
         "phone_nfc": true,
-        "phone_ear_phone": "Lightning EarPods",
+        "phone_ear_phone": "Không kèm",
         "phone_memory_card": false,
-        "phone_desc": "iPhone XS Max: Màn hình lớn nhất từng có, hiệu năng tối ưu.",
+        "phone_desc": "Màn hình ProMotion 120Hz, pin trâu, chụp ảnh chuyên nghiệp.",
         "company_id": "company_1",
         "variants": [
             {
                 "variant_id": "v1",
-                "variant_ph_ram": 4,
+                "variant_ph_ram": 6,
                 "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_color": "Graphite",
+                "variant_ph_org_price": 26890000,
+                "variant_ph_new_price": 19690000,
                 "variant_img": "eg_phone"
             },
             {
                 "variant_id": "v2",
-                "variant_ph_ram": 4,
+                "variant_ph_ram": 6,
                 "variant_ph_rom": 256,
-                "variant_ph_color": "Green",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_color": "Sierra Blue",
+                "variant_ph_org_price": 30510000,
+                "variant_ph_new_price": 22210000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v3",
+                "variant_ph_ram": 6,
+                "variant_ph_rom": 512,
+                "variant_ph_color": "Gold",
+                "variant_ph_org_price": 34180000,
+                "variant_ph_new_price": 25680000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v4",
+                "variant_ph_ram": 6,
+                "variant_ph_rom": 1024,
+                "variant_ph_color": "Silver",
+                "variant_ph_org_price": 38100000,
+                "variant_ph_new_price": 29800000,
                 "variant_img": "eg_phone"
             }
         ]
     },
     {
         "product_id": "ph_4",
-        "phone_name": "Iphone 11",
-        "phone_release_year": "2020",
-        "phone_chip": "Apple A13 Bionic",
-        "phone_screen_size": "6.1 inch Liquid Retina HD",
+        "phone_name": "Iphone 15 Pro Max",
+        "phone_release_year": "2023",
+        "phone_chip": "Apple A17 Pro",
+        "phone_screen_size": "6.7 inch LTPO Super Retina XDR OLED (ProMotion 120Hz)",
         "phone_front_cam": "12MP",
-        "phone_behind_cam": "12MP + 12MP",
-        "phone_battery": 3110,
+        "phone_behind_cam": "48MP + 12MP + 12MP (LiDAR, 5x Zoom Quang)",
+        "phone_battery": 4441,
         "phone_system": "iOS 17",
-        "phone_charging_port": "Lightning",
+        "phone_charging_port": "USB-C",
         "phone_sim_card": 1,
         "phone_nfc": true,
-        "phone_ear_phone": "Lightning EarPods",
+        "phone_ear_phone": "Không kèm",
         "phone_memory_card": false,
-        "phone_desc": "iPhone 11: Camera kép cực rộng, chip A13 mạnh mẽ.",
+        "phone_desc": "Khung Titan, chip A17 Pro, cổng USB-C, camera tele 5x.",
         "company_id": "company_1",
         "variants": [
             {
                 "variant_id": "v1",
-                "variant_ph_ram": 4,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Titanium Black",
+                "variant_ph_org_price": 33900000,
+                "variant_ph_new_price": 26400000,
                 "variant_img": "eg_phone"
             },
             {
                 "variant_id": "v2",
-                "variant_ph_ram": 4,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Silver",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 512,
+                "variant_ph_color": "Titanium Blue",
+                "variant_ph_org_price": 37620000,
+                "variant_ph_new_price": 30520000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v3",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 1024,
+                "variant_ph_color": "Titanium White",
+                "variant_ph_org_price": 42050000,
+                "variant_ph_new_price": 34650000,
                 "variant_img": "eg_phone"
             }
         ]
     },
     {
         "product_id": "ph_5",
-        "phone_name": "Iphone 11 Pro",
-        "phone_release_year": "2020",
-        "phone_chip": "Apple A13 Bionic",
-        "phone_screen_size": "5.8 inch Super Retina XDR",
-        "phone_front_cam": "12MP",
-        "phone_behind_cam": "12MP + 12MP + 12MP (Telephoto)",
-        "phone_battery": 3046,
-        "phone_system": "iOS 17",
-        "phone_charging_port": "Lightning",
-        "phone_sim_card": 1,
+        "phone_name": "Samsung Galaxy S22 Ultra",
+        "phone_release_year": "2022",
+        "phone_chip": "Snapdragon 8 Gen 1",
+        "phone_screen_size": "6.8 inch Dynamic AMOLED 2X (120Hz)",
+        "phone_front_cam": "40MP",
+        "phone_behind_cam": "108MP + 12MP + 10MP + 10MP (10x Zoom Quang)",
+        "phone_battery": 5000,
+        "phone_system": "Android 14 (One UI)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
         "phone_nfc": true,
-        "phone_ear_phone": "Lightning EarPods",
+        "phone_ear_phone": "Không kèm",
         "phone_memory_card": false,
-        "phone_desc": "iPhone 11 Pro: Hệ thống 3 camera, chip A13, màn hình XDR.",
-        "company_id": "company_1",
+        "phone_desc": "Tích hợp bút S Pen, camera zoom 100x Space Zoom.",
+        "company_id": "company_2",
         "variants": [
             {
                 "variant_id": "v1",
-                "variant_ph_ram": 6,
+                "variant_ph_ram": 8,
                 "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_color": "Burgundy",
+                "variant_ph_org_price": 18190000,
+                "variant_ph_new_price": 11590000,
                 "variant_img": "eg_phone"
             },
             {
                 "variant_id": "v2",
-                "variant_ph_ram": 6,
+                "variant_ph_ram": 12,
                 "variant_ph_rom": 256,
                 "variant_ph_color": "Green",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_org_price": 20450000,
+                "variant_ph_new_price": 14050000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v3",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 512,
+                "variant_ph_color": "Phantom Black",
+                "variant_ph_org_price": 23550000,
+                "variant_ph_new_price": 17250000,
                 "variant_img": "eg_phone"
             }
         ]
     },
     {
         "product_id": "ph_6",
-        "phone_name": "Iphone 11 Pro Max",
-        "phone_release_year": "2020",
-        "phone_chip": "Apple A13 Bionic",
-        "phone_screen_size": "6.5 inch Super Retina XDR",
-        "phone_front_cam": "12MP",
-        "phone_behind_cam": "12MP + 12MP + 12MP (Telephoto)",
-        "phone_battery": 3969,
-        "phone_system": "iOS 17",
-        "phone_charging_port": "Lightning",
-        "phone_sim_card": 1,
-        "phone_nfc": true,
-        "phone_ear_phone": "Lightning EarPods",
-        "phone_memory_card": false,
-        "phone_desc": "iPhone 11 Pro Max: Màn hình lớn, pin khủng, 3 camera chất lượng.",
-        "company_id": "company_1",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 6,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 6,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Gold",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_7",
-        "phone_name": "Iphone 12 Pro",
-        "phone_release_year": "2020",
-        "phone_chip": "Apple A14 Bionic",
-        "phone_screen_size": "6.1 inch Super Retina XDR (22K)",
-        "phone_front_cam": "12MP",
-        "phone_behind_cam": "12MP + 12MP + 12MP (Telephoto)",
-        "phone_battery": 2815,
-        "phone_system": "iOS 18",
-        "phone_charging_port": "Lightning",
-        "phone_sim_card": 1,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "iPhone 12 Pro: Viền thép không gỉ, chip A14, hỗ trợ 5G.",
-        "company_id": "company_1",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 6,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 6,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Gold",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_8",
-        "phone_name": "Iphone 12 Pro Max",
-        "phone_release_year": "2020",
-        "phone_chip": "Apple A14 Bionic",
-        "phone_screen_size": "6.7 inch Super Retina XDR (22K)",
-        "phone_front_cam": "12MP",
-        "phone_behind_cam": "12MP + 12MP + 12MP (Telephoto)",
-        "phone_battery": 3687,
-        "phone_system": "iOS 18",
-        "phone_charging_port": "Lightning",
-        "phone_sim_card": 1,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "iPhone 12 Pro Max: Màn hình 6.7 inch lớn nhất, camera nâng cấp.",
-        "company_id": "company_1",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 6,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 6,
-                "variant_ph_rom": 512,
-                "variant_ph_color": "Silver",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_9",
-        "phone_name": "Iphone 13",
-        "phone_release_year": "2020",
-        "phone_chip": "Apple A15 Bionic",
-        "phone_screen_size": "6.1 inch Super Retina XDR",
-        "phone_front_cam": "12MP",
-        "phone_behind_cam": "12MP + 12MP (Ultra-wide)",
-        "phone_battery": 3240,
-        "phone_system": "iOS 18",
-        "phone_charging_port": "Lightning",
-        "phone_sim_card": 1,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "iPhone 13: Cải thiện lớn về pin và camera, chip A15 mạnh mẽ.",
-        "company_id": "company_1",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 4,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Purple",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 4,
-                "variant_ph_rom": 512,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_10",
-        "phone_name": "Iphone 14",
-        "phone_release_year": "2020",
-        "phone_chip": "Apple A15 Bionic",
-        "phone_screen_size": "6.1 inch Super Retina XDR",
-        "phone_front_cam": "12MP",
-        "phone_behind_cam": "12MP + 12MP (Ultra-wide)",
-        "phone_battery": 3279,
-        "phone_system": "iOS 18",
-        "phone_charging_port": "Lightning",
-        "phone_sim_card": 1,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "iPhone 14: Thêm tính năng an toàn, hiệu năng ổn định.",
-        "company_id": "company_1",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 6,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 6,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Gold",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_11",
-        "phone_name": "Iphone 15 Pro",
-        "phone_release_year": "2020",
-        "phone_chip": "Apple A17 Pro",
-        "phone_screen_size": "6.1 inch Super Retina XDR (Dynamic Island)",
-        "phone_front_cam": "12MP",
-        "phone_behind_cam": "48MP + 12MP + 12MP (Telephoto)",
-        "phone_battery": 3274,
-        "phone_system": "iOS 18",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 1,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "iPhone 15 Pro: Thiết kế Titanium, chip A17 Pro mạnh nhất.",
-        "company_id": "company_1",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_12",
-        "phone_name": "Samsung Galaxy Z Flip4",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 8+ Gen 1",
-        "phone_screen_size": "6.7 inch Dynamic AMOLED 2X (gập)",
+        "phone_name": "Samsung Galaxy Z Flip 5",
+        "phone_release_year": "2023",
+        "phone_chip": "Snapdragon 8 Gen 2 for Galaxy",
+        "phone_screen_size": "6.7 inch Dynamic AMOLED 2X (120Hz) - Gập",
         "phone_front_cam": "10MP",
         "phone_behind_cam": "12MP + 12MP",
         "phone_battery": 3700,
-        "phone_system": "Android 14 (OS 1)",
+        "phone_system": "Android 14 (One UI)",
         "phone_charging_port": "USB-C",
         "phone_sim_card": 2,
         "phone_nfc": true,
         "phone_ear_phone": "Không kèm",
         "phone_memory_card": false,
-        "phone_desc": "Điện thoại gập nhỏ gọn, linh hoạt, chống nước IPX8.",
-        "company_id": "company_3",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Purple",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_13",
-        "phone_name": "Samsung Galaxy Z Fold4",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 8+ Gen 1",
-        "phone_screen_size": "7.6 inch Dynamic AMOLED 2X (gập)",
-        "phone_front_cam": "4MP (ẩn) + 10MP",
-        "phone_behind_cam": "50MP + 12MP + 10MP",
-        "phone_battery": 4400,
-        "phone_system": "Android 14 (OS 1)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Máy tính bảng gập mạnh mẽ, hỗ trợ S Pen, đa nhiệm tối ưu.",
-        "company_id": "company_3",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Gray",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 512,
-                "variant_ph_color": "Green",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_14",
-        "phone_name": "Samsung Galaxy S22 Ultra",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 8 Gen 1",
-        "phone_screen_size": "6.8 inch Dynamic AMOLED 2X",
-        "phone_front_cam": "40MP",
-        "phone_behind_cam": "108MP + 12MP + 10MP + 10MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 14 (OS 2)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Thiết kế Note tích hợp S Pen, camera zoom 100x.",
-        "company_id": "company_3",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 512,
-                "variant_ph_color": "Purple",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_15",
-        "phone_name": "Samsung Galaxy S23 Ultra",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 8 Gen 2 for Galaxy",
-        "phone_screen_size": "6.8 inch Dynamic AMOLED 2X",
-        "phone_front_cam": "12MP",
-        "phone_behind_cam": "200MP + 12MP + 10MP + 10MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 14 (OS 2)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Camera 200MP, S Pen tích hợp, hiệu năng đỉnh cao.",
-        "company_id": "company_3",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 512,
-                "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_16",
-        "phone_name": "Oppo Reno8 Pro",
-        "phone_release_year": "2020",
-        "phone_chip": "Dimensity 8100-Max",
-        "phone_screen_size": "6.7 inch AMOLED (120Hz)",
-        "phone_front_cam": "32MP",
-        "phone_behind_cam": "50MP + 8MP + 2MP",
-        "phone_battery": 4500,
-        "phone_system": "Android 13 (OS 3)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Thiết kế nguyên khối, chip Dimensity mạnh mẽ, camera chất lượng.",
-        "company_id": "company_4",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_17",
-        "phone_name": "Oppo Find X5 Pro",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 8 Gen 1",
-        "phone_screen_size": "6.7 inch AMOLED LTPO2",
-        "phone_front_cam": "32MP",
-        "phone_behind_cam": "50MP + 50MP + 13MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 14 (OS 3)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Camera Hasselblad, thiết kế gốm cao cấp.",
-        "company_id": "company_4",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 512,
-                "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_18",
-        "phone_name": "Oppo Find N2 Flip",
-        "phone_release_year": "2020",
-        "phone_chip": "Dimensity 9000+",
-        "phone_screen_size": "6.8 inch AMOLED (gập)",
-        "phone_front_cam": "32MP",
-        "phone_behind_cam": "50MP + 8MP",
-        "phone_battery": 4300,
-        "phone_system": "Android 14 (OS 3)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Điện thoại gập vỏ sò, màn hình phụ lớn.",
-        "company_id": "company_4",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 512,
-                "variant_ph_color": "Green",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_19",
-        "phone_name": "Xiaomi 13 Pro",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 8 Gen 2",
-        "phone_screen_size": "6.73 inch LTPO AMOLED",
-        "phone_front_cam": "32MP",
-        "phone_behind_cam": "50MP + 50MP + 50MP",
-        "phone_battery": 4820,
-        "phone_system": "Android 14 (OS 4)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Camera Leica, sạc nhanh 120W, chip Snapdragon 8 Gen 2.",
+        "phone_desc": "Màn hình ngoài lớn Flex Window, thiết kế gập thời trang.",
         "company_id": "company_2",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 512,
-                "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_20",
-        "phone_name": "Xiaomi 12T Pro",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 8+ Gen 1",
-        "phone_screen_size": "6.67 inch AMOLED",
-        "phone_front_cam": "20MP",
-        "phone_behind_cam": "200MP + 8MP + 2MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 14 (OS 4)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Camera 200MP, sạc siêu nhanh, màn hình 120Hz.",
-        "company_id": "company_2",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Silver",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 512,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_21",
-        "phone_name": "Redmi Note 12 Pro 5G",
-        "phone_release_year": "2020",
-        "phone_chip": "Dimensity 1080",
-        "phone_screen_size": "6.67 inch AMOLED",
-        "phone_front_cam": "16MP",
-        "phone_behind_cam": "50MP + 8MP + 2MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 13 (OS 4)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": true,
-        "phone_desc": "Giá tốt, sạc nhanh 67W, màn hình AMOLED 120Hz.",
-        "company_id": "company_2",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Blue",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_22",
-        "phone_name": "Vivo X90 Pro",
-        "phone_release_year": "2020",
-        "phone_chip": "Dimensity 9200",
-        "phone_screen_size": "6.78 inch AMOLED (120Hz)",
-        "phone_front_cam": "32MP",
-        "phone_behind_cam": "50MP + 50MP + 12MP",
-        "phone_battery": 4870,
-        "phone_system": "Android 14 (OS 5)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Camera Zeiss, chip Dimensity 9200 mạnh mẽ.",
-        "company_id": "company_5",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 512,
-                "variant_ph_color": "Red",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_23",
-        "phone_name": "Vivo Y35",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 680",
-        "phone_screen_size": "6.58 inch IPS LCD",
-        "phone_front_cam": "16MP",
-        "phone_behind_cam": "50MP + 2MP + 2MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 13 (OS 5)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Kèm tai nghe",
-        "phone_memory_card": true,
-        "phone_desc": "Pin 5000mAh, sạc nhanh 44W, hiệu năng tốt trong phân khúc.",
-        "company_id": "company_5",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Blue",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_24",
-        "phone_name": "Realme GT Neo 3",
-        "phone_release_year": "2020",
-        "phone_chip": "Dimensity 8100",
-        "phone_screen_size": "6.7 inch AMOLED (120Hz)",
-        "phone_front_cam": "16MP",
-        "phone_behind_cam": "50MP + 8MP + 2MP",
-        "phone_battery": 4500,
-        "phone_system": "Android 13 (OS 6)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Sạc siêu nhanh 150W, hiệu năng cao cấp.",
-        "company_id": "company_6",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Silver",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 512,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_25",
-        "phone_name": "Realme GT Master Edition",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 778G 5G",
-        "phone_screen_size": "6.43 inch Super AMOLED",
-        "phone_front_cam": "32MP",
-        "phone_behind_cam": "64MP + 8MP + 2MP",
-        "phone_battery": 4300,
-        "phone_system": "Android 13 (OS 6)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Thiết kế vali độc đáo, hiệu năng ổn định.",
-        "company_id": "company_6",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Gray",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_26",
-        "phone_name": "Realme C55",
-        "phone_release_year": "2020",
-        "phone_chip": "Helio G88",
-        "phone_screen_size": "6.72 inch IPS LCD",
-        "phone_front_cam": "8MP",
-        "phone_behind_cam": "64MP + 2MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 13 (OS 6)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Kèm tai nghe",
-        "phone_memory_card": true,
-        "phone_desc": "Giá rẻ, pin trâu, camera 64MP.",
-        "company_id": "company_6",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 6,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Green",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_27",
-        "phone_name": "Samsung Galaxy A54 5G",
-        "phone_release_year": "2020",
-        "phone_chip": "Exynos 1380",
-        "phone_screen_size": "6.4 inch Super AMOLED",
-        "phone_front_cam": "32MP",
-        "phone_behind_cam": "50MP + 12MP + 5MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 14 (OS 2)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Kháng nước, kháng bụi IP67, pin 5000mAh.",
-        "company_id": "company_3",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Purple",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_28",
-        "phone_name": "Oppo A78",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 680",
-        "phone_screen_size": "6.43 inch AMOLED",
-        "phone_front_cam": "8MP",
-        "phone_behind_cam": "50MP + 2MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 13 (OS 3)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Kèm tai nghe",
-        "phone_memory_card": true,
-        "phone_desc": "Sạc nhanh 67W, màn hình AMOLED.",
-        "company_id": "company_4",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Blue",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_29",
-        "phone_name": "Iphone 12",
-        "phone_release_year": "2020",
-        "phone_chip": "Apple A14 Bionic",
-        "phone_screen_size": "6.1 inch Super Retina XDR",
-        "phone_front_cam": "12MP",
-        "phone_behind_cam": "12MP + 12MP (Ultra-wide)",
-        "phone_battery": 2815,
-        "phone_system": "iOS 18",
-        "phone_charging_port": "Lightning",
-        "phone_sim_card": 1,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Thiết kế vuông vắn, màn hình OLED, hỗ trợ 5G.",
-        "company_id": "company_1",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 4,
-                "variant_ph_rom": 64,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 4,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_30",
-        "phone_name": "Iphone 14 Pro Max",
-        "phone_release_year": "2020",
-        "phone_chip": "Apple A16 Bionic",
-        "phone_screen_size": "6.7 inch Super Retina XDR (Dynamic Island)",
-        "phone_front_cam": "12MP",
-        "phone_behind_cam": "48MP + 12MP + 12MP (Telephoto)",
-        "phone_battery": 4323,
-        "phone_system": "iOS 18",
-        "phone_charging_port": "Lightning",
-        "phone_sim_card": 1,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Màn hình Dynamic Island, chip A16 mạnh mẽ, camera 48MP.",
-        "company_id": "company_1",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 6,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 6,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Gold",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_31",
-        "phone_name": "Xiaomi Redmi 12",
-        "phone_release_year": "2020",
-        "phone_chip": "Helio G88",
-        "phone_screen_size": "6.79 inch IPS LCD",
-        "phone_front_cam": "8MP",
-        "phone_behind_cam": "50MP + 8MP + 2MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 13 (OS 4)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Kèm tai nghe",
-        "phone_memory_card": true,
-        "phone_desc": "Thiết kế mặt lưng kính, pin 5000mAh, giá phải chăng.",
-        "company_id": "company_2",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 4,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_32",
-        "phone_name": "Xiaomi 13 Ultra",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 8 Gen 2",
-        "phone_screen_size": "6.73 inch LTPO AMOLED",
-        "phone_front_cam": "32MP",
-        "phone_behind_cam": "50MP + 50MP + 50MP + 50MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 14 (OS 4)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Camera Leica chuyên nghiệp, hiệu năng đỉnh cao.",
-        "company_id": "company_2",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 16,
-                "variant_ph_rom": 512,
-                "variant_ph_color": "Green",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_33",
-        "phone_name": "Samsung Galaxy A04s",
-        "phone_release_year": "2020",
-        "phone_chip": "Exynos 850",
-        "phone_screen_size": "6.5 inch PLS LCD",
-        "phone_front_cam": "5MP",
-        "phone_behind_cam": "50MP + 2MP + 2MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 13 (OS 2)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Kèm tai nghe",
-        "phone_memory_card": true,
-        "phone_desc": "Pin 5000mAh, camera 50MP, giá rẻ.",
-        "company_id": "company_3",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 4,
-                "variant_ph_rom": 64,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 4,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_34",
-        "phone_name": "Samsung Galaxy S23 FE",
-        "phone_release_year": "2020",
-        "phone_chip": "Exynos 2200",
-        "phone_screen_size": "6.4 inch Dynamic AMOLED 2X",
-        "phone_front_cam": "10MP",
-        "phone_behind_cam": "50MP + 12MP + 8MP",
-        "phone_battery": 4500,
-        "phone_system": "Android 14 (OS 2)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Phiên bản rút gọn của S23, camera chất lượng, hiệu năng cao.",
-        "company_id": "company_3",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Purple",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_35",
-        "phone_name": "Oppo Find X6 Pro",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 8 Gen 2",
-        "phone_screen_size": "6.82 inch AMOLED LTPO3",
-        "phone_front_cam": "32MP",
-        "phone_behind_cam": "50MP + 50MP + 50MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 14 (OS 3)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Màn hình độ sáng cực cao, 3 camera 50MP chất lượng.",
-        "company_id": "company_4",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 16,
-                "variant_ph_rom": 512,
-                "variant_ph_color": "Green",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_36",
-        "phone_name": "Oppo Reno10 5G",
-        "phone_release_year": "2020",
-        "phone_chip": "Dimensity 7050",
-        "phone_screen_size": "6.7 inch AMOLED (120Hz)",
-        "phone_front_cam": "32MP",
-        "phone_behind_cam": "64MP + 32MP + 8MP",
-        "phone_battery": 4600,
-        "phone_system": "Android 13 (OS 3)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Thiết kế mỏng nhẹ, sạc nhanh 67W.",
-        "company_id": "company_4",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Blue",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_37",
-        "phone_name": "Xiaomi Redmi Note 11 Pro 5G",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 695 5G",
-        "phone_screen_size": "6.67 inch Super AMOLED",
-        "phone_front_cam": "16MP",
-        "phone_behind_cam": "108MP + 8MP + 2MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 13 (OS 4)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Kèm tai nghe",
-        "phone_memory_card": true,
-        "phone_desc": "Camera 108MP, sạc nhanh 67W, màn hình 120Hz.",
-        "company_id": "company_2",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 6,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_38",
-        "phone_name": "Xiaomi Poco F5",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 7+ Gen 2",
-        "phone_screen_size": "6.67 inch AMOLED",
-        "phone_front_cam": "16MP",
-        "phone_behind_cam": "64MP + 8MP + 2MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 13 (OS 4)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Hiệu năng mạnh mẽ, màn hình 120Hz, pin 5000mAh.",
-        "company_id": "company_2",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Blue",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_39",
-        "phone_name": "Vivo V27 5G",
-        "phone_release_year": "2020",
-        "phone_chip": "Dimensity 8200",
-        "phone_screen_size": "6.78 inch AMOLED",
-        "phone_front_cam": "50MP",
-        "phone_behind_cam": "50MP + 8MP + 2MP",
-        "phone_battery": 4600,
-        "phone_system": "Android 13 (OS 5)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Thiết kế Aura Light, camera selfie 50MP.",
-        "company_id": "company_5",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Green",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_40",
-        "phone_name": "Vivo T1 5G",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 778G+ 5G",
-        "phone_screen_size": "6.67 inch AMOLED",
-        "phone_front_cam": "16MP",
-        "phone_behind_cam": "64MP + 8MP + 2MP",
-        "phone_battery": 4700,
-        "phone_system": "Android 13 (OS 5)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Hiệu năng mạnh mẽ, màn hình 120Hz.",
-        "company_id": "company_5",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Blue",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_41",
-        "phone_name": "Realme 11 Pro+",
-        "phone_release_year": "2020",
-        "phone_chip": "Dimensity 7050",
-        "phone_screen_size": "6.7 inch AMOLED (120Hz)",
-        "phone_front_cam": "32MP",
-        "phone_behind_cam": "200MP + 8MP + 2MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 13 (OS 6)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Thiết kế lưng da cao cấp, camera 200MP.",
-        "company_id": "company_6",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Green",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 512,
-                "variant_ph_color": "Gold",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_42",
-        "phone_name": "Realme Narzo 50 Pro 5G",
-        "phone_release_year": "2020",
-        "phone_chip": "Dimensity 920",
-        "phone_screen_size": "6.4 inch Super AMOLED",
-        "phone_front_cam": "16MP",
-        "phone_behind_cam": "48MP + 8MP + 2MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 13 (OS 6)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Kèm tai nghe",
-        "phone_memory_card": false,
-        "phone_desc": "Màn hình AMOLED, pin 5000mAh.",
-        "company_id": "company_6",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Blue",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_43",
-        "phone_name": "Samsung Galaxy A73 5G",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 778G 5G",
-        "phone_screen_size": "6.7 inch Super AMOLED Plus",
-        "phone_front_cam": "32MP",
-        "phone_behind_cam": "108MP + 12MP + 5MP + 5MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 14 (OS 2)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": true,
-        "phone_desc": "Camera 108MP, chống nước IP67.",
-        "company_id": "company_3",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_44",
-        "phone_name": "Samsung Galaxy Z Flip5",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 8 Gen 2 for Galaxy",
-        "phone_screen_size": "6.7 inch Dynamic AMOLED 2X (gập)",
-        "phone_front_cam": "10MP",
-        "phone_behind_cam": "12MP + 12MP",
-        "phone_battery": 3700,
-        "phone_system": "Android 14 (OS 2)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Màn hình phụ lớn hơn, chip Snapdragon for Galaxy.",
-        "company_id": "company_3",
         "variants": [
             {
                 "variant_id": "v1",
                 "variant_ph_ram": 8,
                 "variant_ph_rom": 256,
                 "variant_ph_color": "Mint",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_org_price": 21800000,
+                "variant_ph_new_price": 15500000,
                 "variant_img": "eg_phone"
             },
             {
                 "variant_id": "v2",
                 "variant_ph_ram": 8,
                 "variant_ph_rom": 512,
-                "variant_ph_color": "Graphite",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_color": "Cream",
+                "variant_ph_org_price": 24000000,
+                "variant_ph_new_price": 17600000,
                 "variant_img": "eg_phone"
             }
         ]
     },
     {
-        "product_id": "ph_45",
-        "phone_name": "Oppo A98 5G",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 695 5G",
-        "phone_screen_size": "6.72 inch LTPS LCD",
-        "phone_front_cam": "32MP",
-        "phone_behind_cam": "64MP + 2MP + 2MP",
+        "product_id": "ph_7",
+        "phone_name": "Xiaomi 13T Pro",
+        "phone_release_year": "2023",
+        "phone_chip": "Dimensity 9200+",
+        "phone_screen_size": "6.67 inch AMOLED (144Hz)",
+        "phone_front_cam": "20MP",
+        "phone_behind_cam": "50MP + 12MP + 50MP",
         "phone_battery": 5000,
-        "phone_system": "Android 13 (OS 3)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Kèm tai nghe",
-        "phone_memory_card": true,
-        "phone_desc": "Pin 5000mAh, sạc siêu nhanh 67W, màn hình 120Hz.",
-        "company_id": "company_4",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Blue",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_46",
-        "phone_name": "Oppo Find N3 Flip",
-        "phone_release_year": "2020",
-        "phone_chip": "Dimensity 9200",
-        "phone_screen_size": "6.8 inch AMOLED (gập)",
-        "phone_front_cam": "32MP",
-        "phone_behind_cam": "50MP + 32MP + 48MP",
-        "phone_battery": 4300,
-        "phone_system": "Android 14 (OS 3)",
+        "phone_system": "Android 13 (MIUI 14)",
         "phone_charging_port": "USB-C",
         "phone_sim_card": 2,
         "phone_nfc": true,
         "phone_ear_phone": "Không kèm",
         "phone_memory_card": false,
-        "phone_desc": "3 camera sau đầu tiên trên điện thoại gập vỏ sò, chip Dimensity 9200.",
-        "company_id": "company_4",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 512,
-                "variant_ph_color": "Gold",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_47",
-        "phone_name": "Xiaomi 14 Pro",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 8 Gen 3",
-        "phone_screen_size": "6.73 inch LTPO AMOLED",
-        "phone_front_cam": "32MP",
-        "phone_behind_cam": "50MP + 50MP + 50MP",
-        "phone_battery": 4880,
-        "phone_system": "Android 14 (OS 4)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Chip Snapdragon 8 Gen 3, màn hình C8, sạc nhanh 120W.",
-        "company_id": "company_2",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 16,
-                "variant_ph_rom": 512,
-                "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_48",
-        "phone_name": "Xiaomi Redmi Note 13 Pro 5G",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 7s Gen 2",
-        "phone_screen_size": "6.67 inch AMOLED",
-        "phone_front_cam": "16MP",
-        "phone_behind_cam": "200MP + 8MP + 2MP",
-        "phone_battery": 5100,
-        "phone_system": "Android 13 (OS 4)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Kèm tai nghe",
-        "phone_memory_card": false,
-        "phone_desc": "Camera 200MP, pin trâu 5100mAh, sạc nhanh 67W.",
-        "company_id": "company_2",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_49",
-        "phone_name": "Vivo X100 Pro",
-        "phone_release_year": "2020",
-        "phone_chip": "Dimensity 9300",
-        "phone_screen_size": "6.78 inch AMOLED LTPO",
-        "phone_front_cam": "32MP",
-        "phone_behind_cam": "50MP + 50MP + 50MP",
-        "phone_battery": 5400,
-        "phone_system": "Android 14 (OS 5)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Chip Dimensity 9300 mạnh mẽ, camera Zeiss, pin 5400mAh.",
-        "company_id": "company_5",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 16,
-                "variant_ph_rom": 512,
-                "variant_ph_color": "Orange",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_50",
-        "phone_name": "Vivo Y100 5G",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 695 5G",
-        "phone_screen_size": "6.67 inch AMOLED",
-        "phone_front_cam": "16MP",
-        "phone_behind_cam": "64MP + 2MP + 2MP",
-        "phone_battery": 4500,
-        "phone_system": "Android 13 (OS 5)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Kèm tai nghe",
-        "phone_memory_card": true,
-        "phone_desc": "Màn hình AMOLED, sạc nhanh 44W.",
-        "company_id": "company_5",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Blue",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_51",
-        "phone_name": "Realme GT5 Pro",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 8 Gen 3",
-        "phone_screen_size": "6.78 inch AMOLED LTPO",
-        "phone_front_cam": "32MP",
-        "phone_behind_cam": "50MP + 50MP + 8MP",
-        "phone_battery": 5400,
-        "phone_system": "Android 14 (OS 6)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Hiệu năng Snapdragon 8 Gen 3, sạc 100W, pin 5400mAh.",
-        "company_id": "company_6",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 16,
-                "variant_ph_rom": 512,
-                "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_52",
-        "phone_name": "Realme C67",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 685",
-        "phone_screen_size": "6.72 inch IPS LCD",
-        "phone_front_cam": "8MP",
-        "phone_behind_cam": "108MP + 2MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 13 (OS 6)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Kèm tai nghe",
-        "phone_memory_card": true,
-        "phone_desc": "Camera 108MP, pin 5000mAh, giá tốt.",
-        "company_id": "company_6",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 6,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Green",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_53",
-        "phone_name": "Iphone 13 Pro Max",
-        "phone_release_year": "2020",
-        "phone_chip": "Apple A15 Bionic",
-        "phone_screen_size": "6.7 inch Super Retina XDR",
-        "phone_front_cam": "12MP",
-        "phone_behind_cam": "12MP + 12MP + 12MP (Telephoto)",
-        "phone_battery": 4352,
-        "phone_system": "iOS 18",
-        "phone_charging_port": "Lightning",
-        "phone_sim_card": 1,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Pin lớn, ProMotion 120Hz, hệ thống 3 camera.",
-        "company_id": "company_1",
-        "variants": [
-            {
-                "variant_id": "v1",
-                "variant_ph_ram": 6,
-                "variant_ph_rom": 128,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            },
-            {
-                "variant_id": "v2",
-                "variant_ph_ram": 6,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
-                "variant_img": "eg_phone"
-            }
-        ]
-    },
-    {
-        "product_id": "ph_54",
-        "phone_name": "Samsung Galaxy S24 Ultra",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 8 Gen 3 for Galaxy",
-        "phone_screen_size": "6.8 inch Dynamic AMOLED 2X (Titanium)",
-        "phone_front_cam": "12MP",
-        "phone_behind_cam": "200MP + 50MP + 12MP + 10MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 14 (OS 2)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
-        "phone_nfc": true,
-        "phone_ear_phone": "Không kèm",
-        "phone_memory_card": false,
-        "phone_desc": "Viền Titanium, chip Snapdragon for Galaxy, tính năng Galaxy AI.",
+        "phone_desc": "Camera Leica, sạc siêu nhanh 120W, màn hình 144Hz.",
         "company_id": "company_3",
         "variants": [
             {
                 "variant_id": "v1",
                 "variant_ph_ram": 12,
                 "variant_ph_rom": 256,
-                "variant_ph_color": "Titanium Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_color": "Black",
+                "variant_ph_org_price": 12990000,
+                "variant_ph_new_price": 6390000,
                 "variant_img": "eg_phone"
             },
             {
                 "variant_id": "v2",
                 "variant_ph_ram": 12,
                 "variant_ph_rom": 512,
-                "variant_ph_color": "Titanium Gray",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_color": "Blue",
+                "variant_ph_org_price": 15990000,
+                "variant_ph_new_price": 8690000,
                 "variant_img": "eg_phone"
             }
         ]
     },
     {
-        "product_id": "ph_55",
-        "phone_name": "Oppo Find X7 Ultra",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 8 Gen 3",
-        "phone_screen_size": "6.82 inch AMOLED LTPO",
+        "product_id": "ph_8",
+        "phone_name": "OPPO Find X6 Pro",
+        "phone_release_year": "2023",
+        "phone_chip": "Snapdragon 8 Gen 2",
+        "phone_screen_size": "6.82 inch AMOLED (120Hz)",
         "phone_front_cam": "32MP",
-        "phone_behind_cam": "50MP + 50MP + 50MP + 50MP",
+        "phone_behind_cam": "50MP + 50MP + 50MP (Camera Hasselblad)",
         "phone_battery": 5000,
-        "phone_system": "Android 14 (OS 3)",
+        "phone_system": "Android 13 (ColorOS 13)",
         "phone_charging_port": "USB-C",
         "phone_sim_card": 2,
         "phone_nfc": true,
         "phone_ear_phone": "Không kèm",
         "phone_memory_card": false,
-        "phone_desc": "Hệ thống 4 camera chính 50MP, sạc nhanh 100W.",
+        "phone_desc": "Hệ thống camera Hasselblad mạnh mẽ, sạc nhanh 100W.",
         "company_id": "company_4",
         "variants": [
             {
                 "variant_id": "v1",
                 "variant_ph_ram": 12,
                 "variant_ph_rom": 256,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_color": "Green",
+                "variant_ph_org_price": 20150000,
+                "variant_ph_new_price": 13850000,
                 "variant_img": "eg_phone"
             },
             {
                 "variant_id": "v2",
                 "variant_ph_ram": 16,
                 "variant_ph_rom": 512,
-                "variant_ph_color": "Orange",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_color": "Black",
+                "variant_ph_org_price": 23550000,
+                "variant_ph_new_price": 16950000,
                 "variant_img": "eg_phone"
             }
         ]
     },
     {
-        "product_id": "ph_56",
-        "phone_name": "Oppo Reno11 Pro 5G",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 8+ Gen 1",
-        "phone_screen_size": "6.7 inch AMOLED (120Hz)",
+        "product_id": "ph_9",
+        "phone_name": "Google Pixel 8 Pro",
+        "phone_release_year": "2023",
+        "phone_chip": "Google Tensor G3",
+        "phone_screen_size": "6.7 inch LTPO Super Actua OLED (120Hz)",
+        "phone_front_cam": "10.5MP",
+        "phone_behind_cam": "50MP + 48MP + 48MP",
+        "phone_battery": 5050,
+        "phone_system": "Android 14 (Gốc)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 1,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Trải nghiệm Android thuần, tính năng AI độc quyền, camera chất lượng cao.",
+        "company_id": "company_5",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Obsidian",
+                "variant_ph_org_price": 22490000,
+                "variant_ph_new_price": 15290000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Porcelain",
+                "variant_ph_org_price": 25150000,
+                "variant_ph_new_price": 18150000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v3",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 512,
+                "variant_ph_color": "Bay",
+                "variant_ph_org_price": 28400000,
+                "variant_ph_new_price": 21800000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_10",
+        "phone_name": "Vivo X100 Pro",
+        "phone_release_year": "2023",
+        "phone_chip": "Dimensity 9300",
+        "phone_screen_size": "6.78 inch AMOLED (120Hz)",
         "phone_front_cam": "32MP",
-        "phone_behind_cam": "50MP + 32MP + 8MP",
-        "phone_battery": 4700,
-        "phone_system": "Android 14 (OS 3)",
+        "phone_behind_cam": "50MP + 50MP + 50MP (Zeiss)",
+        "phone_battery": 5400,
+        "phone_system": "Android 14 (Funtouch OS)",
         "phone_charging_port": "USB-C",
         "phone_sim_card": 2,
         "phone_nfc": true,
         "phone_ear_phone": "Không kèm",
         "phone_memory_card": false,
-        "phone_desc": "Thiết kế mỏng nhẹ, hiệu năng mạnh mẽ, camera chân dung chất lượng.",
-        "company_id": "company_4",
+        "phone_desc": "Ống kính Zeiss APO, chip Dimensity 9300 mạnh mẽ, sạc 100W.",
+        "company_id": "company_6",
         "variants": [
             {
                 "variant_id": "v1",
                 "variant_ph_ram": 12,
                 "variant_ph_rom": 256,
                 "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_org_price": 19450000,
+                "variant_ph_new_price": 11350000,
                 "variant_img": "eg_phone"
             },
             {
                 "variant_id": "v2",
-                "variant_ph_ram": 12,
+                "variant_ph_ram": 16,
                 "variant_ph_rom": 512,
-                "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_color": "Blue",
+                "variant_ph_org_price": 22100000,
+                "variant_ph_new_price": 14500000,
                 "variant_img": "eg_phone"
             }
         ]
     },
     {
-        "product_id": "ph_57",
-        "phone_name": "Xiaomi Redmi Note 13",
-        "phone_release_year": "2020",
-        "phone_chip": "Dimensity 6080",
-        "phone_screen_size": "6.67 inch AMOLED",
-        "phone_front_cam": "16MP",
-        "phone_behind_cam": "108MP + 8MP + 2MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 13 (OS 4)",
+        "product_id": "ph_11",
+        "phone_name": "iPhone 11",
+        "phone_release_year": "2019",
+        "phone_chip": "Apple A13 Bionic",
+        "phone_screen_size": "6.1 inch Liquid Retina HD",
+        "phone_front_cam": "12MP",
+        "phone_behind_cam": "12MP + 12MP",
+        "phone_battery": 3110,
+        "phone_system": "iOS 16",
+        "phone_charging_port": "Lightning",
+        "phone_sim_card": 1,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Thiết kế nhiều màu sắc, camera kép góc siêu rộng.",
+        "company_id": "company_1",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 4,
+                "variant_ph_rom": 64,
+                "variant_ph_color": "White",
+                "variant_ph_org_price": 11800000,
+                "variant_ph_new_price": 5400000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 4,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Black",
+                "variant_ph_org_price": 14000000,
+                "variant_ph_new_price": 7600000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_12",
+        "phone_name": "Samsung Galaxy S23",
+        "phone_release_year": "2023",
+        "phone_chip": "Snapdragon 8 Gen 2 for Galaxy",
+        "phone_screen_size": "6.1 inch Dynamic AMOLED 2X (120Hz)",
+        "phone_front_cam": "12MP",
+        "phone_behind_cam": "50MP + 12MP + 10MP",
+        "phone_battery": 3900,
+        "phone_system": "Android 14 (One UI)",
         "phone_charging_port": "USB-C",
         "phone_sim_card": 2,
         "phone_nfc": true,
-        "phone_ear_phone": "Kèm tai nghe",
+        "phone_ear_phone": "Không kèm",
         "phone_memory_card": false,
-        "phone_desc": "Camera 108MP, giá tốt, pin 5000mAh.",
+        "phone_desc": "Thiết kế nhỏ gọn, hiệu năng mạnh mẽ, camera cải tiến.",
         "company_id": "company_2",
         "variants": [
             {
                 "variant_id": "v1",
-                "variant_ph_ram": 6,
+                "variant_ph_ram": 8,
                 "variant_ph_rom": 128,
+                "variant_ph_color": "Lavender",
+                "variant_ph_org_price": 16500000,
+                "variant_ph_new_price": 10300000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Cream",
+                "variant_ph_org_price": 18900000,
+                "variant_ph_new_price": 12500000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_13",
+        "phone_name": "Xiaomi 14 Ultra",
+        "phone_release_year": "2024",
+        "phone_chip": "Snapdragon 8 Gen 3",
+        "phone_screen_size": "6.73 inch LTPO AMOLED (120Hz)",
+        "phone_front_cam": "32MP",
+        "phone_behind_cam": "50MP + 50MP + 50MP + 50MP (Leica)",
+        "phone_battery": 5300,
+        "phone_system": "Android 14 (HyperOS)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Hệ thống camera Leica chuyên nghiệp với 4 ống kính 50MP, sạc nhanh 90W.",
+        "company_id": "company_3",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 256,
                 "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_org_price": 27500000,
+                "variant_ph_new_price": 21000000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 16,
+                "variant_ph_rom": 512,
+                "variant_ph_color": "White",
+                "variant_ph_org_price": 31100000,
+                "variant_ph_new_price": 24700000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_14",
+        "phone_name": "OPPO Reno10",
+        "phone_release_year": "2023",
+        "phone_chip": "Dimensity 7050",
+        "phone_screen_size": "6.7 inch AMOLED (120Hz)",
+        "phone_front_cam": "32MP",
+        "phone_behind_cam": "64MP + 8MP + 32MP (Camera Chân dung)",
+        "phone_battery": 4600,
+        "phone_system": "Android 13 (ColorOS 13)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Chuyên gia chụp chân dung, thiết kế mỏng nhẹ.",
+        "company_id": "company_4",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Grey",
+                "variant_ph_org_price": 9900000,
+                "variant_ph_new_price": 4000000,
                 "variant_img": "eg_phone"
             },
             {
@@ -2159,83 +579,1546 @@
                 "variant_ph_ram": 8,
                 "variant_ph_rom": 256,
                 "variant_ph_color": "Blue",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_org_price": 11500000,
+                "variant_ph_new_price": 5500000,
                 "variant_img": "eg_phone"
             }
         ]
     },
     {
-        "product_id": "ph_58",
-        "phone_name": "Xiaomi Poco X6 5G",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 7s Gen 2",
-        "phone_screen_size": "6.67 inch AMOLED",
-        "phone_front_cam": "16MP",
-        "phone_behind_cam": "64MP + 8MP + 2MP",
-        "phone_battery": 5100,
-        "phone_system": "Android 13 (OS 4)",
+        "product_id": "ph_15",
+        "phone_name": "Google Pixel 7a",
+        "phone_release_year": "2023",
+        "phone_chip": "Google Tensor G2",
+        "phone_screen_size": "6.1 inch OLED (90Hz)",
+        "phone_front_cam": "13MP",
+        "phone_behind_cam": "64MP + 13MP",
+        "phone_battery": 4385,
+        "phone_system": "Android 14 (Gốc)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 1,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Hiệu năng tốt, camera AI thông minh, giá phải chăng.",
+        "company_id": "company_5",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Charcoal",
+                "variant_ph_org_price": 10500000,
+                "variant_ph_new_price": 6800000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_16",
+        "phone_name": "Vivo V29e",
+        "phone_release_year": "2023",
+        "phone_chip": "Snapdragon 695",
+        "phone_screen_size": "6.67 inch AMOLED (120Hz)",
+        "phone_front_cam": "50MP (AF)",
+        "phone_behind_cam": "64MP + 8MP",
+        "phone_battery": 4800,
+        "phone_system": "Android 13 (Funtouch OS)",
         "phone_charging_port": "USB-C",
         "phone_sim_card": 2,
         "phone_nfc": true,
         "phone_ear_phone": "Không kèm",
         "phone_memory_card": false,
-        "phone_desc": "Chip Snapdragon 7s Gen 2, màn hình 120Hz.",
+        "phone_desc": "Camera selfie 50MP, thiết kế mỏng và nhẹ.",
+        "company_id": "company_6",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Blue",
+                "variant_ph_org_price": 9100000,
+                "variant_ph_new_price": 3800000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_17",
+        "phone_name": "iPhone SE (2022)",
+        "phone_release_year": "2022",
+        "phone_chip": "Apple A15 Bionic",
+        "phone_screen_size": "4.7 inch Retina HD",
+        "phone_front_cam": "7MP",
+        "phone_behind_cam": "12MP",
+        "phone_battery": 2018,
+        "phone_system": "iOS 16",
+        "phone_charging_port": "Lightning",
+        "phone_sim_card": 1,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Thiết kế cổ điển, chip A15 mạnh mẽ, hỗ trợ 5G.",
+        "company_id": "company_1",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 4,
+                "variant_ph_rom": 64,
+                "variant_ph_color": "Midnight",
+                "variant_ph_org_price": 10550000,
+                "variant_ph_new_price": 4250000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 4,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Starlight",
+                "variant_ph_org_price": 12890000,
+                "variant_ph_new_price": 6590000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_18",
+        "phone_name": "Samsung Galaxy A54 5G",
+        "phone_release_year": "2023",
+        "phone_chip": "Exynos 1380",
+        "phone_screen_size": "6.4 inch Super AMOLED (120Hz)",
+        "phone_front_cam": "32MP",
+        "phone_behind_cam": "50MP + 12MP + 5MP",
+        "phone_battery": 5000,
+        "phone_system": "Android 14 (One UI)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Chống nước IP67, pin trâu, camera chất lượng.",
+        "company_id": "company_2",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Awesome Black",
+                "variant_ph_org_price": 10550000,
+                "variant_ph_new_price": 4950000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Awesome Violet",
+                "variant_ph_org_price": 11800000,
+                "variant_ph_new_price": 6400000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_19",
+        "phone_name": "Xiaomi Redmi Note 13 Pro+",
+        "phone_release_year": "2024",
+        "phone_chip": "Dimensity 7200 Ultra",
+        "phone_screen_size": "6.67 inch AMOLED (120Hz)",
+        "phone_front_cam": "16MP",
+        "phone_behind_cam": "200MP + 8MP + 2MP",
+        "phone_battery": 5000,
+        "phone_system": "Android 14 (HyperOS)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Camera 200MP, sạc nhanh 120W, chống nước IP68.",
+        "company_id": "company_3",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Black",
+                "variant_ph_org_price": 11500000,
+                "variant_ph_new_price": 5800000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 512,
+                "variant_ph_color": "Purple",
+                "variant_ph_org_price": 13900000,
+                "variant_ph_new_price": 7500000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_20",
+        "phone_name": "OPPO A78 5G",
+        "phone_release_year": "2023",
+        "phone_chip": "Dimensity 700",
+        "phone_screen_size": "6.56 inch IPS LCD (90Hz)",
+        "phone_front_cam": "8MP",
+        "phone_behind_cam": "50MP + 2MP",
+        "phone_battery": 5000,
+        "phone_system": "Android 13 (ColorOS 13)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Thiết kế đẹp, pin lớn, hỗ trợ 5G.",
+        "company_id": "company_4",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Glowing Black",
+                "variant_ph_org_price": 6800000,
+                "variant_ph_new_price": 2800000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_21",
+        "phone_name": "Google Pixel 6a",
+        "phone_release_year": "2022",
+        "phone_chip": "Google Tensor",
+        "phone_screen_size": "6.1 inch OLED (60Hz)",
+        "phone_front_cam": "8MP",
+        "phone_behind_cam": "12.2MP + 12MP",
+        "phone_battery": 4410,
+        "phone_system": "Android 14 (Gốc)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 1,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Chip Tensor, camera AI, giá tầm trung.",
+        "company_id": "company_5",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 6,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Chalk",
+                "variant_ph_org_price": 7500000,
+                "variant_ph_new_price": 3500000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_22",
+        "phone_name": "Vivo Y100 5G",
+        "phone_release_year": "2023",
+        "phone_chip": "Snapdragon 695",
+        "phone_screen_size": "6.78 inch AMOLED (120Hz)",
+        "phone_front_cam": "50MP",
+        "phone_behind_cam": "64MP + 2MP",
+        "phone_battery": 5000,
+        "phone_system": "Android 13 (Funtouch OS)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Sạc 44W, camera selfie 50MP.",
+        "company_id": "company_6",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Blue",
+                "variant_ph_org_price": 8800000,
+                "variant_ph_new_price": 4300000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Black",
+                "variant_ph_org_price": 10200000,
+                "variant_ph_new_price": 5900000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_23",
+        "phone_name": "iPhone 14 Pro Max",
+        "phone_release_year": "2022",
+        "phone_chip": "Apple A16 Bionic",
+        "phone_screen_size": "6.7 inch Super Retina XDR OLED (ProMotion 120Hz)",
+        "phone_front_cam": "12MP (AF)",
+        "phone_behind_cam": "48MP + 12MP + 12MP (LiDAR)",
+        "phone_battery": 4323,
+        "phone_system": "iOS 17",
+        "phone_charging_port": "Lightning",
+        "phone_sim_card": 1,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Dynamic Island, camera 48MP, pin trâu.",
+        "company_id": "company_1",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 6,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Deep Purple",
+                "variant_ph_org_price": 33100000,
+                "variant_ph_new_price": 25600000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 6,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Gold",
+                "variant_ph_org_price": 36800000,
+                "variant_ph_new_price": 29400000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v3",
+                "variant_ph_ram": 6,
+                "variant_ph_rom": 512,
+                "variant_ph_color": "Silver",
+                "variant_ph_org_price": 40500000,
+                "variant_ph_new_price": 33100000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_24",
+        "phone_name": "Samsung Galaxy Z Fold 5",
+        "phone_release_year": "2023",
+        "phone_chip": "Snapdragon 8 Gen 2 for Galaxy",
+        "phone_screen_size": "7.6 inch Dynamic AMOLED 2X (120Hz) - Gập",
+        "phone_front_cam": "10MP + 4MP (Màn trong)",
+        "phone_behind_cam": "50MP + 12MP + 10MP",
+        "phone_battery": 4400,
+        "phone_system": "Android 14 (One UI)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Thiết kế gập thế hệ mới, đa nhiệm đỉnh cao.",
+        "company_id": "company_2",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Phantom Black",
+                "variant_ph_org_price": 40990000,
+                "variant_ph_new_price": 33490000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 512,
+                "variant_ph_color": "Cream",
+                "variant_ph_org_price": 43800000,
+                "variant_ph_new_price": 36100000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_25",
+        "phone_name": "Xiaomi 12 Pro",
+        "phone_release_year": "2022",
+        "phone_chip": "Snapdragon 8 Gen 1",
+        "phone_screen_size": "6.73 inch LTPO AMOLED (120Hz)",
+        "phone_front_cam": "32MP",
+        "phone_behind_cam": "50MP + 50MP + 50MP",
+        "phone_battery": 4600,
+        "phone_system": "Android 13 (MIUI 14)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Sạc nhanh 120W, hệ thống 3 camera 50MP.",
+        "company_id": "company_3",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Gray",
+                "variant_ph_org_price": 12800000,
+                "variant_ph_new_price": 7900000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Blue",
+                "variant_ph_org_price": 14500000,
+                "variant_ph_new_price": 9800000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_26",
+        "phone_name": "OPPO Find N3 Flip",
+        "phone_release_year": "2023",
+        "phone_chip": "Dimensity 9200",
+        "phone_screen_size": "6.8 inch AMOLED (120Hz) - Gập",
+        "phone_front_cam": "32MP",
+        "phone_behind_cam": "50MP + 32MP + 48MP (Hasselblad)",
+        "phone_battery": 4300,
+        "phone_system": "Android 13 (ColorOS 13)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Camera Hasselblad trên điện thoại gập, màn hình phụ lớn.",
+        "company_id": "company_4",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Cream Gold",
+                "variant_ph_org_price": 20800000,
+                "variant_ph_new_price": 14500000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_27",
+        "phone_name": "Google Pixel 8",
+        "phone_release_year": "2023",
+        "phone_chip": "Google Tensor G3",
+        "phone_screen_size": "6.2 inch Actua OLED (120Hz)",
+        "phone_front_cam": "10.5MP",
+        "phone_behind_cam": "50MP + 12MP",
+        "phone_battery": 4575,
+        "phone_system": "Android 14 (Gốc)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 1,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Chip Tensor G3, kích thước nhỏ gọn, camera AI.",
+        "company_id": "company_5",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Hazel",
+                "variant_ph_org_price": 19500000,
+                "variant_ph_new_price": 12500000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Rose",
+                "variant_ph_org_price": 21800000,
+                "variant_ph_new_price": 14200000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_28",
+        "phone_name": "Vivo X90 Pro",
+        "phone_release_year": "2022",
+        "phone_chip": "Dimensity 9200",
+        "phone_screen_size": "6.78 inch AMOLED (120Hz)",
+        "phone_front_cam": "32MP",
+        "phone_behind_cam": "50MP + 12MP + 50MP (Zeiss)",
+        "phone_battery": 4870,
+        "phone_system": "Android 13 (Funtouch OS)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Camera Zeiss 1 inch, sạc nhanh 120W.",
+        "company_id": "company_6",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Black",
+                "variant_ph_org_price": 16900000,
+                "variant_ph_new_price": 10500000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_29",
+        "phone_name": "iPhone 13",
+        "phone_release_year": "2021",
+        "phone_chip": "Apple A15 Bionic",
+        "phone_screen_size": "6.1 inch Super Retina XDR OLED",
+        "phone_front_cam": "12MP",
+        "phone_behind_cam": "12MP + 12MP",
+        "phone_battery": 3240,
+        "phone_system": "iOS 16",
+        "phone_charging_port": "Lightning",
+        "phone_sim_card": 1,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Hiệu năng mạnh, camera chế độ điện ảnh.",
+        "company_id": "company_1",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 4,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Starlight",
+                "variant_ph_org_price": 18200000,
+                "variant_ph_new_price": 12500000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 4,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Pink",
+                "variant_ph_org_price": 20500000,
+                "variant_ph_new_price": 14900000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_30",
+        "phone_name": "Samsung Galaxy S24 Ultra",
+        "phone_release_year": "2024",
+        "phone_chip": "Snapdragon 8 Gen 3 for Galaxy",
+        "phone_screen_size": "6.8 inch Dynamic AMOLED 2X (120Hz)",
+        "phone_front_cam": "12MP",
+        "phone_behind_cam": "200MP + 12MP + 10MP + 50MP (10x Zoom)",
+        "phone_battery": 5000,
+        "phone_system": "Android 14 (One UI AI)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Khung Titan, Galaxy AI, camera zoom 10x quang học.",
+        "company_id": "company_2",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Titanium Gray",
+                "variant_ph_org_price": 38500000,
+                "variant_ph_new_price": 31900000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 512,
+                "variant_ph_color": "Titanium Black",
+                "variant_ph_org_price": 41200000,
+                "variant_ph_new_price": 34500000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_31",
+        "phone_name": "Xiaomi 13",
+        "phone_release_year": "2022",
+        "phone_chip": "Snapdragon 8 Gen 2",
+        "phone_screen_size": "6.36 inch AMOLED (120Hz)",
+        "phone_front_cam": "32MP",
+        "phone_behind_cam": "50MP + 12MP + 10MP (Leica)",
+        "phone_battery": 4500,
+        "phone_system": "Android 14 (MIUI 14)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Thiết kế vuông, camera Leica, sạc 67W.",
+        "company_id": "company_3",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Black",
+                "variant_ph_org_price": 18200000,
+                "variant_ph_new_price": 11500000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "White",
+                "variant_ph_org_price": 20500000,
+                "variant_ph_new_price": 14000000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_32",
+        "phone_name": "OPPO Find X5 Pro",
+        "phone_release_year": "2022",
+        "phone_chip": "Snapdragon 8 Gen 1",
+        "phone_screen_size": "6.7 inch LTPO2 AMOLED (120Hz)",
+        "phone_front_cam": "32MP",
+        "phone_behind_cam": "50MP + 50MP + 13MP (Hasselblad)",
+        "phone_battery": 5000,
+        "phone_system": "Android 13 (ColorOS 13)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Chip MariSilicon X, sạc 80W, lưng gốm.",
+        "company_id": "company_4",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Ceramic White",
+                "variant_ph_org_price": 14200000,
+                "variant_ph_new_price": 8500000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_33",
+        "phone_name": "Google Pixel 7 Pro",
+        "phone_release_year": "2022",
+        "phone_chip": "Google Tensor G2",
+        "phone_screen_size": "6.7 inch LTPO AMOLED (120Hz)",
+        "phone_front_cam": "10.8MP",
+        "phone_behind_cam": "50MP + 12MP + 48MP (5x Zoom Quang)",
+        "phone_battery": 5000,
+        "phone_system": "Android 14 (Gốc)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 1,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Thiết kế độc đáo, camera zoom quang 5x, tính năng AI.",
+        "company_id": "company_5",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Obsidian",
+                "variant_ph_org_price": 17800000,
+                "variant_ph_new_price": 11500000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Snow",
+                "variant_ph_org_price": 20400000,
+                "variant_ph_new_price": 13900000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_34",
+        "phone_name": "Vivo Y36 5G",
+        "phone_release_year": "2023",
+        "phone_chip": "Dimensity 6020",
+        "phone_screen_size": "6.64 inch IPS LCD (90Hz)",
+        "phone_front_cam": "16MP",
+        "phone_behind_cam": "50MP + 2MP",
+        "phone_battery": 5000,
+        "phone_system": "Android 13 (Funtouch OS)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Thiết kế Dynamic Glass, pin 5000mAh, sạc 44W.",
+        "company_id": "company_6",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Gold",
+                "variant_ph_org_price": 7500000,
+                "variant_ph_new_price": 3100000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_35",
+        "phone_name": "iPhone 15",
+        "phone_release_year": "2023",
+        "phone_chip": "Apple A16 Bionic",
+        "phone_screen_size": "6.1 inch Super Retina XDR OLED",
+        "phone_front_cam": "12MP (AF)",
+        "phone_behind_cam": "48MP + 12MP",
+        "phone_battery": 3349,
+        "phone_system": "iOS 17",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 1,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Dynamic Island, cổng USB-C, camera chính 48MP.",
+        "company_id": "company_1",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 6,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Pink",
+                "variant_ph_org_price": 26900000,
+                "variant_ph_new_price": 19400000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 6,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Yellow",
+                "variant_ph_org_price": 29800000,
+                "variant_ph_new_price": 22200000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_36",
+        "phone_name": "Samsung Galaxy S23 FE",
+        "phone_release_year": "2023",
+        "phone_chip": "Exynos 2200",
+        "phone_screen_size": "6.4 inch Dynamic AMOLED 2X (120Hz)",
+        "phone_front_cam": "10MP",
+        "phone_behind_cam": "50MP + 12MP + 8MP (3x Zoom Quang)",
+        "phone_battery": 4500,
+        "phone_system": "Android 14 (One UI)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Thiết kế S23 series, chip Exynos 2200, camera zoom quang 3x.",
+        "company_id": "company_2",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Mint",
+                "variant_ph_org_price": 13900000,
+                "variant_ph_new_price": 7500000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Cream",
+                "variant_ph_org_price": 15500000,
+                "variant_ph_new_price": 9900000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_37",
+        "phone_name": "Xiaomi Redmi Note 12",
+        "phone_release_year": "2023",
+        "phone_chip": "Snapdragon 685",
+        "phone_screen_size": "6.67 inch AMOLED (120Hz)",
+        "phone_front_cam": "13MP",
+        "phone_behind_cam": "50MP + 8MP + 2MP",
+        "phone_battery": 5000,
+        "phone_system": "Android 13 (MIUI 14)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Màn hình AMOLED 120Hz giá rẻ, pin trâu.",
+        "company_id": "company_3",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 4,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Blue",
+                "variant_ph_org_price": 5900000,
+                "variant_ph_new_price": 2100000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Gray",
+                "variant_ph_org_price": 7500000,
+                "variant_ph_new_price": 3500000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_38",
+        "phone_name": "OPPO Reno11 F 5G",
+        "phone_release_year": "2024",
+        "phone_chip": "Dimensity 7050",
+        "phone_screen_size": "6.7 inch AMOLED (120Hz)",
+        "phone_front_cam": "32MP",
+        "phone_behind_cam": "64MP + 8MP + 2MP",
+        "phone_battery": 5000,
+        "phone_system": "Android 14 (ColorOS 14)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Thiết kế Aura Glow, camera chân dung.",
+        "company_id": "company_4",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Palm Green",
+                "variant_ph_org_price": 9800000,
+                "variant_ph_new_price": 5400000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_39",
+        "phone_name": "Google Pixel 6 Pro",
+        "phone_release_year": "2021",
+        "phone_chip": "Google Tensor",
+        "phone_screen_size": "6.7 inch LTPO AMOLED (120Hz)",
+        "phone_front_cam": "11.1MP",
+        "phone_behind_cam": "50MP + 12MP + 48MP (4x Zoom Quang)",
+        "phone_battery": 5003,
+        "phone_system": "Android 14 (Gốc)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 1,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Thiết kế camera bar độc đáo, chip Tensor đời đầu.",
+        "company_id": "company_5",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Stormy Black",
+                "variant_ph_org_price": 12500000,
+                "variant_ph_new_price": 7900000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Cloudy White",
+                "variant_ph_org_price": 14900000,
+                "variant_ph_new_price": 9500000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_40",
+        "phone_name": "Vivo iQOO 12",
+        "phone_release_year": "2023",
+        "phone_chip": "Snapdragon 8 Gen 3",
+        "phone_screen_size": "6.78 inch AMOLED (144Hz)",
+        "phone_front_cam": "16MP",
+        "phone_behind_cam": "50MP + 50MP + 64MP (3x Zoom Quang)",
+        "phone_battery": 5000,
+        "phone_system": "Android 14 (OriginOS 4)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Chip Snapdragon 8 Gen 3, màn hình 144Hz, chuyên game.",
+        "company_id": "company_6",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Alpha",
+                "variant_ph_org_price": 20500000,
+                "variant_ph_new_price": 13900000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 16,
+                "variant_ph_rom": 512,
+                "variant_ph_color": "Legend",
+                "variant_ph_org_price": 23200000,
+                "variant_ph_new_price": 16500000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_41",
+        "phone_name": "iPhone 15 Pro",
+        "phone_release_year": "2023",
+        "phone_chip": "Apple A17 Pro",
+        "phone_screen_size": "6.1 inch LTPO Super Retina XDR OLED (ProMotion 120Hz)",
+        "phone_front_cam": "12MP (AF)",
+        "phone_behind_cam": "48MP + 12MP + 12MP (LiDAR)",
+        "phone_battery": 3274,
+        "phone_system": "iOS 17",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 1,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Khung Titan, cổng USB-C, chip A17 Pro, Action Button.",
+        "company_id": "company_1",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Titanium Black",
+                "variant_ph_org_price": 30500000,
+                "variant_ph_new_price": 23800000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Titanium White",
+                "variant_ph_org_price": 33200000,
+                "variant_ph_new_price": 26500000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_42",
+        "phone_name": "Samsung Galaxy A34 5G",
+        "phone_release_year": "2023",
+        "phone_chip": "Dimensity 1080",
+        "phone_screen_size": "6.6 inch Super AMOLED (120Hz)",
+        "phone_front_cam": "13MP",
+        "phone_behind_cam": "48MP + 8MP + 5MP",
+        "phone_battery": 5000,
+        "phone_system": "Android 14 (One UI)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Màn hình 120Hz, chống nước IP67, pin trâu.",
+        "company_id": "company_2",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Lime",
+                "variant_ph_org_price": 8500000,
+                "variant_ph_new_price": 4200000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Silver",
+                "variant_ph_org_price": 9900000,
+                "variant_ph_new_price": 5500000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_43",
+        "phone_name": "Xiaomi Black Shark 5 Pro",
+        "phone_release_year": "2022",
+        "phone_chip": "Snapdragon 8 Gen 1",
+        "phone_screen_size": "6.67 inch AMOLED (144Hz)",
+        "phone_front_cam": "16MP",
+        "phone_behind_cam": "108MP + 13MP + 5MP",
+        "phone_battery": 4650,
+        "phone_system": "Android 13 (JoyUI 13)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Điện thoại gaming, trigger vật lý, sạc 120W.",
+        "company_id": "company_3",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Black",
+                "variant_ph_org_price": 14900000,
+                "variant_ph_new_price": 9500000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_44",
+        "phone_name": "OPPO Find X7 Ultra",
+        "phone_release_year": "2024",
+        "phone_chip": "Snapdragon 8 Gen 3",
+        "phone_screen_size": "6.82 inch LTPO AMOLED (120Hz)",
+        "phone_front_cam": "32MP",
+        "phone_behind_cam": "50MP + 50MP + 50MP + 50MP (Hasselblad)",
+        "phone_battery": 5000,
+        "phone_system": "Android 14 (ColorOS 14)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Hệ thống 4 camera 50MP, zoom 6x quang, chip Snapdragon 8 Gen 3.",
+        "company_id": "company_4",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Black",
+                "variant_ph_org_price": 31500000,
+                "variant_ph_new_price": 24800000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 16,
+                "variant_ph_rom": 512,
+                "variant_ph_color": "Brown",
+                "variant_ph_org_price": 35200000,
+                "variant_ph_new_price": 28500000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_45",
+        "phone_name": "Google Pixel 8a",
+        "phone_release_year": "2024",
+        "phone_chip": "Google Tensor G3",
+        "phone_screen_size": "6.1 inch OLED (90Hz)",
+        "phone_front_cam": "13MP",
+        "phone_behind_cam": "64MP + 13MP",
+        "phone_battery": 4492,
+        "phone_system": "Android 14 (Gốc)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 1,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Chip Tensor G3, tính năng AI mới nhất, giá phải chăng.",
+        "company_id": "company_5",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Obsidian",
+                "variant_ph_org_price": 12500000,
+                "variant_ph_new_price": 7500000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_46",
+        "phone_name": "Vivo X Fold 3 Pro",
+        "phone_release_year": "2024",
+        "phone_chip": "Snapdragon 8 Gen 3",
+        "phone_screen_size": "8.03 inch AMOLED (120Hz) - Gập",
+        "phone_front_cam": "32MP + 32MP (Màn ngoài)",
+        "phone_behind_cam": "50MP + 50MP + 64MP (Zeiss)",
+        "phone_battery": 5700,
+        "phone_system": "Android 14 (OriginOS 4)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Điện thoại gập siêu mỏng, pin khủng 5700mAh, sạc 100W.",
+        "company_id": "company_6",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 16,
+                "variant_ph_rom": 512,
+                "variant_ph_color": "Black",
+                "variant_ph_org_price": 36800000,
+                "variant_ph_new_price": 29500000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_47",
+        "phone_name": "iPhone 12 Mini",
+        "phone_release_year": "2020",
+        "phone_chip": "Apple A14 Bionic",
+        "phone_screen_size": "5.4 inch Super Retina XDR OLED",
+        "phone_front_cam": "12MP",
+        "phone_behind_cam": "12MP + 12MP",
+        "phone_battery": 2227,
+        "phone_system": "iOS 16",
+        "phone_charging_port": "Lightning",
+        "phone_sim_card": 1,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Kích thước nhỏ gọn, hiệu năng mạnh mẽ.",
+        "company_id": "company_1",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 4,
+                "variant_ph_rom": 64,
+                "variant_ph_color": "Blue",
+                "variant_ph_org_price": 16200000,
+                "variant_ph_new_price": 9900000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_48",
+        "phone_name": "Samsung Galaxy S24+",
+        "phone_release_year": "2024",
+        "phone_chip": "Exynos 2400 / Snapdragon 8 Gen 3 for Galaxy",
+        "phone_screen_size": "6.7 inch Dynamic AMOLED 2X (120Hz)",
+        "phone_front_cam": "12MP",
+        "phone_behind_cam": "50MP + 12MP + 10MP",
+        "phone_battery": 4900,
+        "phone_system": "Android 14 (One UI AI)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Galaxy AI, màn hình lớn, pin tốt.",
+        "company_id": "company_2",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Cobalt Violet",
+                "variant_ph_org_price": 27900000,
+                "variant_ph_new_price": 20500000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 512,
+                "variant_ph_color": "Marble Gray",
+                "variant_ph_org_price": 30500000,
+                "variant_ph_new_price": 23200000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_49",
+        "phone_name": "Xiaomi MIX Fold 3",
+        "phone_release_year": "2023",
+        "phone_chip": "Snapdragon 8 Gen 2 for Galaxy",
+        "phone_screen_size": "8.03 inch LTPO AMOLED (120Hz) - Gập",
+        "phone_front_cam": "20MP + 20MP (Màn ngoài)",
+        "phone_behind_cam": "50MP + 12MP + 10MP + 10MP (Leica)",
+        "phone_battery": 4800,
+        "phone_system": "Android 13 (MIUI Fold)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Điện thoại gập mỏng, camera Leica, sạc 67W.",
+        "company_id": "company_3",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 16,
+                "variant_ph_rom": 512,
+                "variant_ph_color": "Black",
+                "variant_ph_org_price": 32900000,
+                "variant_ph_new_price": 26000000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_50",
+        "phone_name": "OPPO Reno8 T 5G",
+        "phone_release_year": "2023",
+        "phone_chip": "Snapdragon 695",
+        "phone_screen_size": "6.7 inch AMOLED (120Hz)",
+        "phone_front_cam": "32MP",
+        "phone_behind_cam": "108MP + 2MP + 2MP",
+        "phone_battery": 4800,
+        "phone_system": "Android 13 (ColorOS 13)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Camera 108MP, sạc nhanh 67W.",
+        "company_id": "company_4",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Starlight Black",
+                "variant_ph_org_price": 8500000,
+                "variant_ph_new_price": 4000000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_51",
+        "phone_name": "Google Pixel 5",
+        "phone_release_year": "2020",
+        "phone_chip": "Snapdragon 765G",
+        "phone_screen_size": "6.0 inch OLED (90Hz)",
+        "phone_front_cam": "8MP",
+        "phone_behind_cam": "12.2MP + 16MP",
+        "phone_battery": 4080,
+        "phone_system": "Android 14 (Gốc)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 1,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Thiết kế nhỏ gọn, hỗ trợ sạc không dây ngược.",
+        "company_id": "company_5",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Just Black",
+                "variant_ph_org_price": 6200000,
+                "variant_ph_new_price": 2300000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_52",
+        "phone_name": "Vivo T1 5G",
+        "phone_release_year": "2022",
+        "phone_chip": "Snapdragon 778G+",
+        "phone_screen_size": "6.67 inch AMOLED (120Hz)",
+        "phone_front_cam": "16MP",
+        "phone_behind_cam": "64MP + 8MP + 2MP",
+        "phone_battery": 4700,
+        "phone_system": "Android 13 (Funtouch OS)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Hỗ trợ 5G, màn hình 120Hz.",
+        "company_id": "company_6",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Blue",
+                "variant_ph_org_price": 8500000,
+                "variant_ph_new_price": 4000000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_53",
+        "phone_name": "iPhone 15 Plus",
+        "phone_release_year": "2023",
+        "phone_chip": "Apple A16 Bionic",
+        "phone_screen_size": "6.7 inch Super Retina XDR OLED",
+        "phone_front_cam": "12MP (AF)",
+        "phone_behind_cam": "48MP + 12MP",
+        "phone_battery": 4383,
+        "phone_system": "iOS 17",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 1,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Màn hình lớn, pin trâu, Dynamic Island.",
+        "company_id": "company_1",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 6,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Green",
+                "variant_ph_org_price": 29800000,
+                "variant_ph_new_price": 22500000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 6,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Black",
+                "variant_ph_org_price": 32500000,
+                "variant_ph_new_price": 25000000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_54",
+        "phone_name": "Samsung Galaxy S24",
+        "phone_release_year": "2024",
+        "phone_chip": "Exynos 2400 / Snapdragon 8 Gen 3 for Galaxy",
+        "phone_screen_size": "6.2 inch Dynamic AMOLED 2X (120Hz)",
+        "phone_front_cam": "12MP",
+        "phone_behind_cam": "50MP + 12MP + 10MP",
+        "phone_battery": 4000,
+        "phone_system": "Android 14 (One UI AI)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Thiết kế nhỏ gọn, chip mạnh, Galaxy AI.",
         "company_id": "company_2",
         "variants": [
             {
                 "variant_id": "v1",
                 "variant_ph_ram": 8,
                 "variant_ph_rom": 256,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_color": "Amber Yellow",
+                "variant_ph_org_price": 24800000,
+                "variant_ph_new_price": 17500000,
                 "variant_img": "eg_phone"
             },
             {
                 "variant_id": "v2",
+                "variant_ph_ram": 8,
+                "variant_ph_rom": 512,
+                "variant_ph_color": "Onyx Black",
+                "variant_ph_org_price": 27500000,
+                "variant_ph_new_price": 19900000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_55",
+        "phone_name": "Xiaomi 14 Pro",
+        "phone_release_year": "2023",
+        "phone_chip": "Snapdragon 8 Gen 3",
+        "phone_screen_size": "6.73 inch LTPO AMOLED (120Hz)",
+        "phone_front_cam": "32MP",
+        "phone_behind_cam": "50MP + 50MP + 50MP (Leica)",
+        "phone_battery": 4880,
+        "phone_system": "Android 14 (HyperOS)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Khung Titan, màn hình cong, sạc 120W.",
+        "company_id": "company_3",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "White",
+                "variant_ph_org_price": 24500000,
+                "variant_ph_new_price": 17800000,
+                "variant_img": "eg_phone"
+            },
+            {
+                "variant_id": "v2",
+                "variant_ph_ram": 16,
+                "variant_ph_rom": 512,
+                "variant_ph_color": "Black",
+                "variant_ph_org_price": 27200000,
+                "variant_ph_new_price": 20400000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_56",
+        "phone_name": "OPPO Reno11 5G",
+        "phone_release_year": "2024",
+        "phone_chip": "Dimensity 8200",
+        "phone_screen_size": "6.7 inch AMOLED (120Hz)",
+        "phone_front_cam": "32MP",
+        "phone_behind_cam": "50MP + 32MP + 8MP",
+        "phone_battery": 4800,
+        "phone_system": "Android 14 (ColorOS 14)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Camera chân dung chuyên nghiệp, sạc nhanh 67W.",
+        "company_id": "company_4",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 12,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Wave Green",
+                "variant_ph_org_price": 14500000,
+                "variant_ph_new_price": 8800000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_57",
+        "phone_name": "Google Pixel 4a",
+        "phone_release_year": "2020",
+        "phone_chip": "Snapdragon 730G",
+        "phone_screen_size": "5.81 inch OLED (60Hz)",
+        "phone_front_cam": "8MP",
+        "phone_behind_cam": "12.2MP",
+        "phone_battery": 3140,
+        "phone_system": "Android 13 (Gốc)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 1,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Thiết kế nhỏ, camera đơn nhưng chất lượng cao.",
+        "company_id": "company_5",
+        "variants": [
+            {
+                "variant_id": "v1",
+                "variant_ph_ram": 6,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Just Black",
+                "variant_ph_org_price": 4900000,
+                "variant_ph_new_price": 1900000,
+                "variant_img": "eg_phone"
+            }
+        ]
+    },
+    {
+        "product_id": "ph_58",
+        "phone_name": "Vivo V30 Pro",
+        "phone_release_year": "2024",
+        "phone_chip": "Dimensity 8200",
+        "phone_screen_size": "6.78 inch AMOLED (120Hz)",
+        "phone_front_cam": "50MP (AF)",
+        "phone_behind_cam": "50MP + 50MP + 50MP (Zeiss)",
+        "phone_battery": 5000,
+        "phone_system": "Android 14 (Funtouch OS)",
+        "phone_charging_port": "USB-C",
+        "phone_sim_card": 2,
+        "phone_nfc": true,
+        "phone_ear_phone": "Không kèm",
+        "phone_memory_card": false,
+        "phone_desc": "Camera 50MP Zeiss, đèn Aura Light.",
+        "company_id": "company_6",
+        "variants": [
+            {
+                "variant_id": "v1",
                 "variant_ph_ram": 12,
                 "variant_ph_rom": 512,
-                "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_color": "Blue",
+                "variant_ph_org_price": 16900000,
+                "variant_ph_new_price": 9500000,
                 "variant_img": "eg_phone"
             }
         ]
     },
     {
         "product_id": "ph_59",
-        "phone_name": "Vivo V30 5G",
-        "phone_release_year": "2020",
-        "phone_chip": "Snapdragon 7 Gen 3",
-        "phone_screen_size": "6.78 inch AMOLED",
-        "phone_front_cam": "50MP",
-        "phone_behind_cam": "50MP + 50MP",
-        "phone_battery": 5000,
-        "phone_system": "Android 14 (OS 5)",
-        "phone_charging_port": "USB-C",
-        "phone_sim_card": 2,
+        "phone_name": "iPhone 14",
+        "phone_release_year": "2022",
+        "phone_chip": "Apple A15 Bionic",
+        "phone_screen_size": "6.1 inch Super Retina XDR OLED",
+        "phone_front_cam": "12MP (AF)",
+        "phone_behind_cam": "12MP + 12MP",
+        "phone_battery": 3279,
+        "phone_system": "iOS 17",
+        "phone_charging_port": "Lightning",
+        "phone_sim_card": 1,
         "phone_nfc": true,
         "phone_ear_phone": "Không kèm",
         "phone_memory_card": false,
-        "phone_desc": "Thiết kế mỏng nhẹ, pin 5000mAh, sạc nhanh 80W.",
-        "company_id": "company_5",
+        "phone_desc": "Hiệu năng mạnh, camera nâng cấp, tính năng an toàn.",
+        "company_id": "company_1",
         "variants": [
             {
                 "variant_id": "v1",
-                "variant_ph_ram": 8,
-                "variant_ph_rom": 256,
-                "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_ram": 6,
+                "variant_ph_rom": 128,
+                "variant_ph_color": "Blue",
+                "variant_ph_org_price": 20800000,
+                "variant_ph_new_price": 13500000,
                 "variant_img": "eg_phone"
             },
             {
                 "variant_id": "v2",
-                "variant_ph_ram": 12,
-                "variant_ph_rom": 512,
-                "variant_ph_color": "Green",
-                "variant_ph_org_price": 26000000,
+                "variant_ph_ram": 6,
+                "variant_ph_rom": 256,
+                "variant_ph_color": "Purple",
+                "variant_ph_org_price": 23200000,
                 "variant_ph_new_price": 16600000,
                 "variant_img": "eg_phone"
             }
@@ -2264,8 +2147,8 @@
                 "variant_ph_ram": 8,
                 "variant_ph_rom": 256,
                 "variant_ph_color": "Black",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_org_price": 21500000,
+                "variant_ph_new_price": 14900000,
                 "variant_img": "eg_phone"
             },
             {
@@ -2273,8 +2156,8 @@
                 "variant_ph_ram": 12,
                 "variant_ph_rom": 512,
                 "variant_ph_color": "White",
-                "variant_ph_org_price": 26000000,
-                "variant_ph_new_price": 16600000,
+                "variant_ph_org_price": 24200000,
+                "variant_ph_new_price": 17800000,
                 "variant_img": "eg_phone"
             }
         ]
