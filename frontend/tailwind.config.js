@@ -14,9 +14,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "mainCL": "#ff4d00",
-        "deal_CL1": "#00ffff",
-        "deal_CL2": "#001919"
+        "mainCL": "#ff4d00"
+      },
+      backgroundImage: {
+        "saleGradient": "linear-gradient(to right,#ff1b6b,#45caff)"
       }
     },
   },

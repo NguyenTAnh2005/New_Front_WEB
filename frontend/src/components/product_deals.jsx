@@ -2,7 +2,7 @@ import { priceFormatter } from "../utils/format_price.jsx";
 
 export function Product_Deals({ p_sale, baselink, max_width = "325px", fs_title = "lg", fs_text = "base", fs_desc = "sm", hover_out = true }) {
     return (
-        <div className={`w-full max-w-[${max_width}] border bg-white border-gray-300 rounded-xl mx-auto mt-10 overflow-hidden pb-5 shadow-sm relative group ${hover_out ? 'hover:-translate-y-2 hover:shadow-white hover:shadow-2xl' : ''} transition-all duration-300 ease-linear`}>
+        <div className={`w-full max-w-[${max_width}] border bg-white border-gray-300 rounded-xl mx-auto overflow-hidden pb-5 shadow-sm relative group ${hover_out ? 'hover:-translate-y-2 hover:shadow-white hover:shadow-2xl' : ''} transition-all duration-300 ease-linear`}>
             <div className="m-3 overflow-hidden rounded-xl group">
                 <img src={`${baselink}${p_sale.variant_img}`} className="w-full group-hover:scale-110 transition-transform duration-300 ease-linear" loading="lazy" alt={p_sale.name} />
             </div>
