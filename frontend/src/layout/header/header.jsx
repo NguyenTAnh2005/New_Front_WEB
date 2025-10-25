@@ -68,19 +68,22 @@ function NavItem({ nav_item, location }) {
     )
 }
 function NavActions({ actions, cls_name = "" }) {
-    const list_act = actions.map(act => <Action action={act} key={act.id} />);
     return (
         <div className={cls_name}>
-            {list_act}
+            <Link to={"/Phones"}>
+                <Action id="act_search" content="Search" clsicon="bi bi-search" />
+            </Link>
+            <Action id="act_favorite" content="Favorite" clsicon="bi bi-heart" />
+            <Action id="act_cart" content="Cart" clsicon="bi bi-cart-check" />
         </div>
     )
 }
-function Action({ action }) {
+function Action({ id, content, clsicon }) {
     return (
-        <button id={action.id} className="flex flex-col xl:flex-row justify-center xl:gap-2 gap-0 items-center text-mainCL group text-[16px]
+        <button id={id} className="flex flex-col xl:flex-row justify-center xl:gap-2 gap-0 items-center text-mainCL group text-[16px]
         hover:text-white rounded-lg hover:pr-6 hover:bg-mainCL hover:shadow-lg hover:shadow-mainCL transition-all duration-400 ease-linear px-2 py-1">
-            <i className={action.clsicon + "  align-middle"}></i>
-            <span className="hidden text-xl group-hover:block transition-all duration-400 ease-linear">{action.content}</span>
+            <i className={clsicon + "  align-middle"}></i>
+            <span className="hidden text-xl group-hover:block transition-all duration-400 ease-linear">{content}</span>
         </button>
     )
 }

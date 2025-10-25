@@ -17,38 +17,43 @@ export function PhonesPage() {
 
     }
     return (
-        <div className="py-5 flex flex-col relative animate__animated animate__fadeIn">
-            {/* ============================ PHẦN SEARCH BAR  */}
-            <div className="flex flex-col gap-0 lg:flex-row lg:gap-5 justify-center w-full items-center mb-3 ">
-                <SearchBar />
-                <ModeSortPrice sortMode={sortMode} setSortMode={setSortMode} />
-            </div>
+        <>
+            {scrollToTopSmooth()}
+            <div className="py-5 flex flex-col relative animate__animated animate__fadeIn">
+                {/* ============================ PHẦN SEARCH BAR  */}
+                <div className="flex flex-col gap-0 lg:flex-row lg:gap-5 justify-center w-full items-center mb-3 ">
+                    <SearchBar />
+                    <ModeSortPrice sortMode={sortMode} setSortMode={setSortMode} />
+                </div>
 
-            {/* ============================ PHẦN LIST PHONES  */}
-            <div className={`grid gap-4 px-5 grid-cols-1 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 z-0 sm:grid-cols-2 w-[95%] mx-auto`}>
-                <List_Phones base_link={base_link} />
-            </div>
-            {/* ============================ PHẦN MÀN ĐEN CHE NỘI DUNG KHI MỞ FILTER VÀ NGĂN KO CHO CLICK BÊN NGOÀI FILTER */}
-            <div className={`absolute bg-black w-full top-0 left-0 h-[100%]
+                {/* ============================ PHẦN LIST PHONES  */}
+                <div className={`grid gap-4 px-5 grid-cols-1 xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 z-0 sm:grid-cols-2 w-[95%] mx-auto`}>
+                    <List_Phones base_link={base_link} />
+                </div>
+                {/* ============================ PHẦN MÀN ĐEN CHE NỘI DUNG KHI MỞ FILTER VÀ NGĂN KO CHO CLICK BÊN NGOÀI FILTER */}
+                <div className={`absolute bg-black w-full top-0 left-0 h-[100%]
                  ${!expand ? "opacity-0 pointer-events-none" : "opacity-40 pointer-events-auto "}`}>
-            </div>
-            { /*==============================Phần filter  */}
-            <div className={`absolute w-auto ml-3
+                </div>
+                { /*==============================Phần filter  */}
+                <div className={`absolute w-auto ml-3
                 ${!expand ? "pointer-events-none" : "pointer-events-auto "}`}>
-                <Filter expand={expand} changeModeExpand={changeModeExpand} />
-            </div>
+                    <Filter expand={expand} changeModeExpand={changeModeExpand} />
+                </div>
 
-            {/* ============================ PHẦN ICON BỘ LỌC  */}
-            <div className={`bg-mainCL text-white text-xl p-0 py-1 px-2 z-10 rounded-full fixed top-25 left-5 cursor-pointer
+                {/* ============================ PHẦN ICON BỘ LỌC  */}
+                <div className={`bg-mainCL text-white text-xl p-0 py-1 px-2 z-10 rounded-full fixed top-25 left-5 cursor-pointer
                 transition-all ease-in-out duration-500 ${expand ? " opacity-0 -translate-x-full " : "opacity-100 translate-x-0 "}`}>
-                <i className="bi bi-funnel-fill" onClick={changeModeExpand}>Filter</i>
+                    <i className="bi bi-funnel-fill" onClick={changeModeExpand}>Filter</i>
+                </div>
+                {/* ============================ PHẦN PAGINATION  */}
+                <div className="mt-10">
+                    {/* Sử dụng maxPage đã được cập nhật từ Backend */}
+                    <Pagination />
+                </div>
             </div>
-            {/* ============================ PHẦN PAGINATION  */}
-            <div className="mt-10">
-                {/* Sử dụng maxPage đã được cập nhật từ Backend */}
-                <Pagination />
-            </div>
-        </div>
+        </>
+
+
     )
 }
 // ============================= Phan Load DS
