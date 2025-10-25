@@ -1,7 +1,8 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import { Link } from "react-router-dom";
 import { priceFormatter } from "../utils/format_price.jsx";
 import { getNumScreenSize } from "../utils/get_num_screen_size.jsx";
+
 export function ProductCard({ product, baselink, max_width = "350px", fs_title = "xl", fs_text = "base", fs_desc = "xs", hover_out = true }) {
     const [favorite, setFavorite] = useState(false);
     function changeStatefavorite() {
@@ -15,10 +16,10 @@ export function ProductCard({ product, baselink, max_width = "350px", fs_title =
                 transition-all duration-300 ease-linear bg-white relative text-${fs_text}`}>
             <Link to={"/product-details"} className="flex flex-col">
                 <div className="rounded-lg overflow-hidden">
-                    <img src={`${baselink}${product.variant_img}`} alt={product.name}
+                    <img src={`${baselink}${product.variant_img}`} alt={product.phone_name}
                         className="w-full rounded-lg transition-transform duration-300 ease-in-out group-hover:scale-110 aspect-square object-cover" loading="lazy" />
                 </div>
-                <span title={product.name} className={`mt-2 text-${fs_title} font-semibold font-sans text-mainCL h-16`}>
+                <span title={product.phone_name} className={`mt-2 text-${fs_title} font-semibold font-sans text-mainCL h-16`}>
                     {product.phone_name} - {product.variant_ph_ram}GB/{product.variant_ph_rom}GB
                 </span>
                 <span className={`text-${fs_desc} h-6 text-gray-600`}>
@@ -54,7 +55,7 @@ export function ProductCard({ product, baselink, max_width = "350px", fs_title =
             <div className={`flex bg-mainCL absolute top-2 px-2 left-2 rounded-lg text-white font-semibold text-${fs_text} 
             -translate-y-9 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 ease-linear`}>
                 <i className="bi bi-arrow-down"></i>
-                <span>{product.variant_discount}%</span>
+                <span>{Math.round(100 - (product.variant_ph_new_price / product.variant_ph_org_price) * 100)}%</span>
             </div>
         </div>
     )

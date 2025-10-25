@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import { useImmer } from "use-immer"
 import { list_nav, list_action } from "./data.js"
 import { Link } from "react-router-dom";
+import { scrollToTopSmooth } from "../../utils/scroll_top_smooth.jsx"
 export function Header() {
     const [navLinks, setNavLinks] = useState(list_nav);
     const [expand, setExpand] = useState(false);
@@ -56,7 +57,7 @@ function NavLink({ navLinks, cls_name = "" }) {
 }
 function NavItem({ nav_item, location }) {
     return (
-        <li className={`text-[16px] text-gray-400 font-medium relative group hover:text-mainCL transition-colors duration-300 ease-linear ${location.pathname === `/${nav_item.content}` && "text-mainCL"}`}>
+        <li onClick={scrollToTopSmooth} className={`text-[16px] text-gray-400 font-medium relative group hover:text-mainCL transition-colors duration-300 ease-linear ${location.pathname === `/${nav_item.content}` && "text-mainCL"}`}>
             <Link to={"/" + nav_item.content}>
                 {nav_item.content}
             </Link >

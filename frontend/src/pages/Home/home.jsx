@@ -1,49 +1,31 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import { ProductCard } from "../../components/product_card"
 import { ArticleCard } from "../../components/article_card"
 import { Product_Deals } from "../../components/product_deals.jsx"
-import { data_service } from "./data.js"
+import { data_service, eg_phone, eg_deal, eg_article } from "./data.js"
 import banner_img from "../../assets/chess.png"
-import { fetchJsonToListObj } from "../../utils/fetch_async_await.jsx"
 import { scrollToTopSmooth } from "../../utils/scroll_top_smooth.jsx"
-import { flatArrObjPhone } from "../../utils/flat_arr_obj_phone.jsx"
 import { Link } from "react-router-dom"
 export function HomePage() {
     const base_link = "https://res.cloudinary.com/df5mtvzkn/image/upload/q_auto,f_auto/WEB_SELL_PHONE__PROJECT/TEST/Test_IMG/"
-    const [products, setProducts] = useState([]);
-    const [articles, setArticles] = useState([]);
-    const [pSales, setPSales] = useState([]);
     const [services, setService] = useState(data_service);
-    useEffect(() => {
-        async function loadAllData() {
-            const [product_data, article_data, deal_data] = await Promise.all([
-                /* Với file json thì vite cấu hình nên để ngoài thư mục src,
-                 thường để trong public và với các file public khi import path 
-                 thi tự dộng cd về root sẵn nên ko cần ../ hay ./ = FROM CHAT GPT = 
-                 => KO hiểu lắm => Tính năng mới (0`_o)  \(0 o 0)/ @_@*/
-                /* Lam fetc co tung list thi hoi loang ngoang, ket hop voi promise de fetch chung 1 lan tien hon - Cre Chat GPT*/
-                flatArrObjPhone("/products.json"),
-                fetchJsonToListObj("/articles.json"),
-                fetchJsonToListObj("/deals.json")
-            ]);
-            setProducts(product_data);
-            setPSales(deal_data);
-            setArticles(article_data);
-        }
-        loadAllData();
-    }, []);
-    const copy_products = products.map(p => {
-        return <ProductCard key={p.variant_key} product={p} baselink={base_link} max_width="350px" fs_title="2xl" fs_desc="sm" fs_text="lg" />
-    });
 
-    const copy_articles = articles.map(a => {
-        return <ArticleCard article={a} key={a.id} baselink={base_link} />
-    });
 
-    const copy_pSales = pSales.map(ps => {
-        return <Product_Deals p_sale={ps} key={ps.id} baselink={base_link} />
-    });
-
+    const copy__products = [];
+    const copy__deals = [];
+    const copy__articles = [];
+    // populate sample product cards
+    for (let i = 0; i < 6; i++) {
+        copy__products.push(
+            <ProductCard key={"p" + i} product={eg_phone[0]} baselink={base_link} />
+        )
+        copy__deals.push(
+            <Product_Deals baselink={base_link} key={"d" + i} p_sale={eg_deal[0]} />
+        )
+        copy__articles.push(
+            <ArticleCard article={eg_article[0]} key={"a" + i} baselink={base_link} />
+        )
+    }
     return (
         <div className="animate__animated animate__fadeIn">
             <Home_Banner services={services} />
@@ -51,7 +33,7 @@ export function HomePage() {
                 <p className="text-black text-[40px] font-semibold capitalize mt-10 text-center">Popular Phones</p>
                 <p className="text-[20px] text-gray-600 text-center">Discover our best-selling phones</p>
                 <div className="mt-10 px-5 grid grid-cols-1 xl:grid-cols-4 lg:grid-cols-3 sm:grid-cols-2 gap-x-4 gap-y-4">
-                    {copy_products}
+                    {copy__products}
                 </div>
                 <Link to="/Phones" className="mt-10 capitalize text-mainCL font-semibold text-2xl rounded-xl px-3 py-1 hover:scale-90 hover:bg-mainCL hover:-translate-y-1 hover:text-white transition-all duration-300 ease-linear">
                     View All Phones</Link>
@@ -60,7 +42,7 @@ export function HomePage() {
                 <p className="text-white text-[40px] font-semibold capitalize mt-10 text-center">Special Deals</p>
                 <p className="text-[20px] text-gray-600 text-center">Limited time offers - Don't miss out!</p>
                 <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-7 gap-y-7">
-                    {copy_pSales}
+                    {copy__deals}
                 </div>
                 <Link to="/Deals" className="mt-10 capitalize text-mainCL font-semibold text-2xl rounded-xl px-3 py-1 hover:scale-90 hover:bg-mainCL hover:-translate-y-1 hover:text-white transition-all duration-300 ease-linear">
                     View All Deals</Link>
@@ -69,7 +51,7 @@ export function HomePage() {
                 <p className="text-black text-[40px] font-semibold capitalize mt-10 text-center">Latest Technology Article </p>
                 <p className="text-[20px] text-gray-600 text-center">Stay updated with tech news and reviews</p>
                 <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-7 gap-y-7">
-                    {copy_articles}
+                    {copy__articles}
                 </div>
                 <Link to="/Articles" className="mt-10 capitalize text-mainCL font-semibold text-2xl rounded-xl px-3 py-1 hover:scale-90 hover:bg-mainCL hover:-translate-y-1 hover:text-white transition-all duration-300 ease-linear">
                     View All Article</Link>
