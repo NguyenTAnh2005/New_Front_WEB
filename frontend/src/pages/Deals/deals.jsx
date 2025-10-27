@@ -25,7 +25,7 @@ export function DealsPage() {
             {scrollToTopSmooth()}
             <div className="flex flex-col relative animate__animated animate__fadeIn">
                 {/* =================== TIÊU ĐỀ CHUNG =================== */}
-                <div className="text-center text-mainCL bg-white py-5">
+                <div className="text-center bg-mainCL text-white py-5">
                     <span className="text-4xl font-semibold capitalize ">
                         <i className="bi bi-cart4 text-5xl"></i> các ưu đãi hấp dẫn
                     </span>

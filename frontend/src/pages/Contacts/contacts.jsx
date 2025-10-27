@@ -1,7 +1,7 @@
 import { TextArea } from "../../components/text_area"
 export function ContactsPage() {
     return (
-        <>
+        <div className="animate__animated animate__fadeIn">
             <div className="flex flex-col items-center justify-center">
                 <p className="text-[50px] font-semibold text-mainCL mb-10">Contacs Us</p>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-10 xl:gap-16 mb-10">
@@ -16,7 +16,7 @@ export function ContactsPage() {
             <div className="w-[90%] mx-auto py-10">
                 <SendUs />
             </div>
-        </>
+        </div>
 
     )
 }

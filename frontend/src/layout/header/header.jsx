@@ -7,7 +7,7 @@ import { scrollToTopSmooth } from "../../utils/scroll_top_smooth.jsx"
 export function Header() {
     const [navLinks, setNavLinks] = useState(list_nav);
     const [expand, setExpand] = useState(false);
-    const [isLogIn, setIsLogIn] = useState(false);
+    const [isLogIn, setIsLogIn] = useState(true);
     function changeMode() {
         setExpand(!expand);
     }
@@ -95,11 +95,11 @@ function ToggleNav({ changeMode }) {
 }
 function NavAccount({ isLogIn, cls_name = "" }) {
     return (
-        <Link to="/login" className={`flex flex-col xl:flex-row xl:justify-center items-center text-mainCL group lg:w-[10%]
-        hover:text-white rounded-lg hover:pr-6 hover:bg-mainCL hover:shadow-lg hover:shadow-mainCL transition-all duration-400 ease-linear px-2 py-1 ${cls_name}`}>
-            <i className="bi bi-person-vcard text-2xl group-hover:me-2 align-middle"></i>
-            <span className="hidden text-xl group-hover:block transition-all duration-400 ease-linear">
-                {`${isLogIn ? "Hello" : "Log In"}`}
+        <Link to={isLogIn ? "/Account" : "/login"} className={`flex flex-col xl:flex-row xl:justify-center items-center text-mainCL group lg:w-[10%]
+        hover:text-white rounded-lg hover:pr-7 hover:bg-mainCL hover:shadow-lg hover:shadow-mainCL transition-all duration-400 ease-linear px-2 py-1 ${cls_name}`}>
+            <i className="bi bi-person-vcard text-xl group-hover:me-1 align-middle"></i>
+            <span className="hidden text-base group-hover:block transition-all duration-400 ease-linear">
+                {`${isLogIn ? "Tuan Anh" : "Log In"}`}
             </span>
         </Link>
     )

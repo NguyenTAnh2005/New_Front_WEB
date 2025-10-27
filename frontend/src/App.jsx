@@ -15,6 +15,12 @@ import { LogIn } from './components/login_signup_forgotpass/login.jsx'
 import { SignUp } from './components/login_signup_forgotpass/signup.jsx'
 import { ForgotPassword } from './components/login_signup_forgotpass/forgotpassword.jsx'
 import { Product_Details } from './pages/Product_Details/Product_Details.jsx'
+import { Account } from './pages/Account/Account.jsx'
+import { Info1 } from './pages/Account/Info1.jsx'
+import { Info2 } from './pages/Account/Info2.jsx'
+import { Address } from './pages/Account/Address.jsx'
+import { Order } from './pages/Account/Order.jsx'
+import { Policy } from './pages/Account/Policy.jsx'
 
 function AppContent() {
   const location = useLocation();
@@ -33,6 +39,14 @@ function AppContent() {
         <Route path='/signup' element={<SignUp />} />
         <Route path='/forgot-password' element={<ForgotPassword />} />
         <Route path={`/product-details`} element={<Product_Details />} />
+        <Route path={`/Account`} element={<Account />}>
+          <Route index element={<Info1 />} />
+          <Route path="info1" element={<Info1 />} />
+          <Route path="info2" element={<Info2 />} />
+          <Route path="address" element={<Address />} />
+          <Route path="order" element={<Order />} />
+          <Route path="policy" element={<Policy />} />
+        </Route>
       </Routes>
       {!hideHeaderFooter && <Footer />}
     </>
